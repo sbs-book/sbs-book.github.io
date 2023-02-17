@@ -25,9 +25,9 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('../img/SBS_Book_WebSite.jpg');
-    background-size: 1280px;
+    background-size: 1600px;
     background-position-x: 50%;
-    background-position-y: 60px;
+    background-position-y: 100px;
     background-repeat: no-repeat;
 }
 
@@ -38,9 +38,9 @@ body {
 
 header {
     width: 100%;
-    height: 54px;
+    height: 60px;
     background-color: var(--theme-color-1);
-    font-size: 11pt;
+    font-size: 13pt;
     /* opacity: .5; */
 
     display: flex;
@@ -48,11 +48,9 @@ header {
     justify-content: center;
 }
 
-header nav {}
-
 header #cambridge {
     background-color: var(--theme-color-4);
-    flex: 4;
+    flex: 3;
     height: 100%;
     width: 27.2%;
     margin: 0;
@@ -69,7 +67,7 @@ header #cambridge img {
 
 header #medicine {
     margin: 0 0 0 8px;
-    flex: 0.9;
+    flex: 1.5;
     color: var(--theme-color-4);
     font-weight: 500;
     display: flex;
@@ -80,19 +78,37 @@ header #medicine {
 header #menu {
     color: var(--theme-color-4);
     flex: 8;
-    font-size: 9pt;
+    font-size: 11pt;
     display: flex;
     justify-content: left;
     align-items: center;
 }
 
-header #menu ul {}
-
 header #menu ul li {
     display: inline;
-    margin: 0 16px 0 0;
+    margin: 0 20px 0 0;
 }
 
 header #menu ul li a:hover {
     filter: brightness(125%);
+}
+
+header #menu button {
+    background-color: var(--theme-color-4);
+    padding: 10px 25px;
+    font-size: 11pt;
+    color: white;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header #menu button:hover {
+    filter: brightness(125%);
+}
+
+header #menu button:active {
+    position: relative;
+    top: 1px;
+    left: 1px;
 }
