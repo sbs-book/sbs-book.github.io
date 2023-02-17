@@ -1,0 +1,98 @@
+/*************************************************************************************************/
+/* GENERAL */
+/*************************************************************************************************/
+
+:root {
+    --theme-color-1: #70C2CF;
+    --theme-color-2: #CCDDDE;
+    --theme-color-3: #66ACB7;
+    --theme-color-4: #0C707A;
+    --theme-color-5: #152829;
+}
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/SBS_Book_WebSite.jpg');
+    background-size: 1280px;
+    background-position-x: 50%;
+    background-position-y: 60px;
+    background-repeat: no-repeat;
+}
+
+
+/*************************************************************************************************/
+/* HEADER */
+/*************************************************************************************************/
+
+header {
+    width: 100%;
+    height: 54px;
+    background-color: var(--theme-color-1);
+    font-size: 11pt;
+    /* opacity: .5; */
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+header nav {}
+
+header #cambridge {
+    background-color: var(--theme-color-4);
+    flex: 4;
+    height: 100%;
+    width: 27.2%;
+    margin: 0;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+header #cambridge img {
+    height: 25%;
+    margin: 0 6px 0 0;
+}
+
+header #medicine {
+    margin: 0 0 0 8px;
+    flex: 0.9;
+    color: var(--theme-color-4);
+    font-weight: 500;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+header #menu {
+    color: var(--theme-color-4);
+    flex: 8;
+    font-size: 9pt;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+header #menu ul {}
+
+header #menu ul li {
+    display: inline;
+    margin: 0 16px 0 0;
+}
+
+header #menu ul li a:hover {
+    filter: brightness(125%);
+}
