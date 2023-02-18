@@ -29,6 +29,16 @@
     font-family: 'Roboto', sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -174,11 +184,19 @@ main {
 
 section {
     flex: 1;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 section .wrapper {
-    max-width: 1280px;
-    /* max-width: var(--main-width); */
+    flex: 1;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 40px 0;
 }
 
 
@@ -190,11 +208,6 @@ section .wrapper {
 #hero {
     padding: 40px 0 0 0;
     background-color: var(--theme-color-2);
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
 }
 
 #hero .wrapper {
@@ -203,7 +216,7 @@ section .wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 1280px;
+    max-width: var(--main-width);
 }
 
 #hero .text {
@@ -227,7 +240,7 @@ section .wrapper {
     margin: 0;
     width: 100%;
     height: 100%;
-    min-height: 600px;
+    min-height: 574px;
     background-image: url('../img/book1.jpg');
     background-repeat: no-repeat;
     background-position: -15px -18px;
@@ -287,4 +300,148 @@ section .wrapper {
 #hero button.learn {
     background-color: white;
     color: var(--theme-color-4);
+}
+
+
+
+/*************************************************************************************************/
+/* KEY POINTS */
+/*************************************************************************************************/
+
+#key-points {
+    background-color: var(--theme-color-4);
+}
+
+#key-points .title {
+    max-width: 525px;
+    margin: 0 auto 30px auto;
+}
+
+#key-points h2 {
+    margin: 5px 0 8px 0;
+    padding: 5px 0 0 0;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 24pt;
+    font-weight: 400;
+}
+
+#key-points h3 {
+    padding: 0;
+    color: var(--theme-color-1);
+    text-align: center;
+    font-size: 14pt;
+    line-height: 1.35em;
+    font-weight: 400;
+}
+
+
+#key-points .cols {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#key-points .col {
+    flex: 1 1 200px;
+    color: #fff;
+    margin: 0 10px;
+    padding: 0 10px;
+    text-align: center;
+    line-height: 1.35em;
+}
+
+#key-points .col2 {
+    flex: 2 2 200px;
+}
+
+
+
+/*************************************************************************************************/
+/* EDITORS */
+/*************************************************************************************************/
+
+#editors {
+    background-color: #fff;
+}
+
+
+
+/*************************************************************************************************/
+/* AUTHORS */
+/*************************************************************************************************/
+
+#authors {
+    background-color: var(--theme-color-2);
+}
+
+
+
+/*************************************************************************************************/
+/* NUMBERS */
+/*************************************************************************************************/
+
+#numbers {
+    background-color: var(--theme-color-4);
+}
+
+
+
+/*************************************************************************************************/
+/* TOPIC */
+/*************************************************************************************************/
+
+#topic {
+    background-color: var(--theme-color-3);
+}
+
+
+
+/*************************************************************************************************/
+/* INFO */
+/*************************************************************************************************/
+
+#info {
+    background-color: #fff;
+}
+
+
+
+/*************************************************************************************************/
+/* FURTHER */
+/*************************************************************************************************/
+
+#further {
+    background-color: var(--theme-color-3);
+}
+
+
+
+/*************************************************************************************************/
+/* MESSAGE */
+/*************************************************************************************************/
+
+#message {
+    background-color: var(--theme-color-4);
+}
+
+
+
+/*************************************************************************************************/
+/* MAIL */
+/*************************************************************************************************/
+
+#mail {
+    background-color: #fff;
+}
+
+
+
+/*************************************************************************************************/
+/* FOOTER */
+/*************************************************************************************************/
+
+footer {
+    background-color: var(--theme-color-4);
+    width: 100%;
 }
