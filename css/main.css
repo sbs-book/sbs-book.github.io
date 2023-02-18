@@ -9,7 +9,7 @@
     --theme-color-4: #0C707A;
     --theme-color-5: #152829;
 
-    --main-width: 1024px;
+    --main-width: 1280px;
 }
 
 @font-face {
@@ -38,11 +38,12 @@ a {
 body {
     margin: 0;
     padding: 0;
-    background-image: url('../img/SBS_Book_WebSite.jpg');
     background-size: 1600px;
     background-position-x: 50%;
     background-position-y: 0;
     background-repeat: no-repeat;
+
+    background-image: url('../img/SBS_Book_WebSite.jpg');
     opacity: .75;
 }
 
@@ -93,7 +94,7 @@ header .wrap-left {
 
 header .wrap-center {
     background: var(--theme-color-1);
-    flex: 0 1 var(--main-width);
+    flex: 0 1 1024px;
     display: flex;
 }
 
@@ -159,9 +160,25 @@ header #menu button {
 /* HERO */
 /*************************************************************************************************/
 
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    flex: 1;
+}
+
+section .wrapper {
+    max-width: var(--main-width);
+}
+
 #hero {
     padding: 40px 0;
     background-color: var(--theme-color-2);
+    width: 100%;
     /* opacity: .85; */
     display: flex;
     flex-wrap: wrap;
@@ -169,20 +186,20 @@ header #menu button {
 }
 
 #hero .wrapper {
-    padding: 40px 0;
+    padding: 30px 0;
     flex: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 1024px;
+    max-width: var(--main-width);
 }
 
 #hero .wrapper div {
-    flex: 2.6;
+    flex: 2;
 }
 
 #hero .text {
-    padding: 0 20px 70px 32px;
+    padding: 10px 0 100px 142px;
 }
 
 #hero h1 {
@@ -234,8 +251,8 @@ header #menu button {
     height: 100%;
     background-image: url('../img/book1.jpg');
     background-repeat: no-repeat;
-    background-position: 0 -20px;
-    background-size: 520px;
+    background-position: 0 -8px;
+    background-size: 530px;
 }
 
 #hero summary {
