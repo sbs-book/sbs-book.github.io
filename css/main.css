@@ -8,7 +8,21 @@
     --theme-color-3: #66ACB7;
     --theme-color-4: #0C707A;
     --theme-color-5: #152829;
+
+    --main-width: 1024px;
 }
+
+@font-face {
+    font-family: "DINNeuzeitGroteskStd-Bold";
+    src: url("../woff/DINNeuzeitGroteskStd-BdCond.woff") format("woff");
+}
+
+@font-face {
+    font-family: "DINNeuzeitGroteskStd-Light";
+    src: url("../woff/DINNeuzeitGroteskStd Light.woff") format("woff");
+}
+
+
 
 
 * {
@@ -29,6 +43,7 @@ body {
     background-position-x: 50%;
     background-position-y: 0;
     background-repeat: no-repeat;
+    opacity: .75;
 }
 
 
@@ -59,20 +74,38 @@ button:active {
 /*************************************************************************************************/
 
 header {
+    margin: 0;
+    padding: 0;
     width: 100%;
-    height: 60px;
-    background-color: var(--theme-color-1);
+    height: 69px;
+    background: var(--theme-color-1);
     font-size: 13pt;
-    /* opacity: .5; */
 
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
 }
 
+header .wrap-left {
+    background: var(--theme-color-4);
+    flex: 1;
+}
+
+header .wrap-center {
+    background: var(--theme-color-1);
+    flex: 0 1 var(--main-width);
+    display: flex;
+}
+
+header .wrap-right {
+    background-color: --var(--theme-color-1);
+    flex: 1;
+}
+
+
 header #cambridge {
     background-color: var(--theme-color-4);
-    flex: 3;
+    flex: 0 0 150px;
     height: 100%;
     width: 27.2%;
     margin: 0;
@@ -82,6 +115,7 @@ header #cambridge {
     align-items: center;
 }
 
+
 header #cambridge img {
     height: 25%;
     margin: 0 6px 0 0;
@@ -89,20 +123,21 @@ header #cambridge img {
 
 header #medicine {
     margin: 0 0 0 8px;
-    flex: 1.5;
+    flex: 0;
     color: var(--theme-color-4);
     font-weight: 500;
     display: flex;
     justify-content: left;
     align-items: center;
+    pointer-events: none;
 }
 
 header #menu {
     color: var(--theme-color-4);
-    flex: 8;
-    font-size: 11pt;
+    flex: 1;
+    font-size: 12pt;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
 }
 
@@ -147,25 +182,25 @@ header #menu button {
 }
 
 #hero .text {
-    padding: 0 20px 70px 20px;
+    padding: 0 20px 70px 32px;
 }
 
 #hero h1 {
     text-transform: uppercase;
     color: white;
-    font-family: 'Roboto Condensed';
-    font-weight: 300;
-    font-size: 36pt;
-    margin: 20px 0 24px 0;
+    font-family: 'DINNeuzeitGroteskStd-Bold';
+    /* font-weight: 300; */
+    font-size: 44pt;
+    margin: 8px 0 20px 0;
 }
 
 #hero h2 {
     text-transform: uppercase;
     color: white;
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 24pt;
-    margin: 10px 0 0 0;
+    font-family: 'DINNeuzeitGroteskStd-Light';
+    font-size: 22pt;
+    margin: 0 0 16px 0;
+    line-height: 1.1em;
 }
 
 #hero h3 {
@@ -173,14 +208,14 @@ header #menu button {
     color: var(--theme-color-3);
     font-weight: 400;
     font-size: 18pt;
-    margin: 12px 0 0 0;
+    margin: 18px 0 0 0;
 }
 
 #hero h4 {
     color: var(--theme-color-4);
     font-weight: 400;
-    font-size: 18pt;
-    margin: 6px 0 0 0;
+    font-size: 18.5pt;
+    margin: 2px 0 0 0;
 }
 
 #hero summary {
