@@ -199,6 +199,13 @@ section .wrapper {
     padding: 40px 0;
 }
 
+section h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 16px 0;
+    font-size: 22pt;
+}
+
 
 
 /*************************************************************************************************/
@@ -232,7 +239,7 @@ section .wrapper {
 #hero .text .text-wrapper {
     flex: 1;
     max-width: 576px;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 #hero figure {
@@ -260,9 +267,9 @@ section .wrapper {
 }
 
 #hero h2 {
-    text-transform: uppercase;
     color: white;
     font-family: 'DINNeuzeitGroteskStd-Light';
+    text-align: left;
     font-size: 22pt;
     margin: 0 0 16px 0;
     line-height: 1.1em;
@@ -310,6 +317,7 @@ section .wrapper {
 
 #key-points {
     background-color: var(--theme-color-4);
+    max-width: 960px;
 }
 
 #key-points .title {
@@ -363,6 +371,51 @@ section .wrapper {
 
 #editors {
     background-color: #fff;
+}
+
+#editors h2 {
+    color: var(--theme-color-3);
+}
+
+#editors .carousel {
+    width: 100%;
+    margin: 25px 0;
+}
+
+#editors .quote {
+    font-size: 20pt;
+    color: var(--theme-color-4);
+    text-align: center;
+    max-width: 670px;
+    margin: 0 auto;
+}
+
+#editors figure {
+    width: 150px;
+    margin: 30px auto;
+    aspect-ratio: 1;
+    border: 5px solid var(--theme-color-3);
+    border-radius: 100%;
+}
+
+#editors h3 {
+    color: var(--theme-color-3);
+    font-size: 20pt;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 5px 0;
+}
+
+#editors p {
+    color: var(--theme-color-3);
+    margin: 0;
+    font-size: 14pt;
+    font-weight: 400;
+    text-align: center;
+}
+
+#editors nav {
+    margin: 20px 0;
 }
 
 
