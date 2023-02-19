@@ -593,7 +593,7 @@ section h2 {
     width: 100%;
 }
 
-#numbers .col .icon {
+#numbers .col figure {
     width: 130px;
     height: 130px;
     background-size: 100%;
@@ -601,15 +601,15 @@ section h2 {
     margin: 0 auto;
 }
 
-#numbers .col1 .icon {
+#numbers .col1 figure {
     background-image: url("../img/Authors_Icon_white.png");
 }
 
-#numbers .col2 .icon {
+#numbers .col2 figure {
     background-image: url("../img/Countries_Icon_white.png");
 }
 
-#numbers .col3 .icon {
+#numbers .col3 figure {
     background-image: url("../img/Disciplines_Icon_white.png");
 }
 
@@ -746,8 +746,64 @@ section h2 {
 /*************************************************************************************************/
 
 #further {
-    background-color: var(--theme-color-3);
+    background-color: var(--theme-color-2);
 }
+
+#further .wrapper {
+    padding-bottom: 58px;
+}
+
+#further h2 {
+    color: var(--theme-color-4);
+    margin-top: 26px;
+}
+
+#further ul {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#further ul li {
+    flex: 1;
+}
+
+#further ul li figure {
+    width: 100px;
+    height: 100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto 36px auto;
+}
+
+#further ul li.col1 figure {
+    background-image: url("../img/FurtherIcon-Papers.png");
+}
+
+#further ul li.col2 figure {
+    background-image: url("../img/FurtherIcon-Books.png");
+}
+
+#further ul li.col3 figure {
+    background-image: url("../img/FurtherIcon-Video.png");
+}
+
+#further ul li.col4 figure {
+    background-image: url("../img/FurtherIcon-Websites.png");
+}
+
+#further ul li.col5 figure {
+    background-image: url("../img/FurtherIcon-Blog.png");
+}
+
+#further ul li h3 {
+    text-transform: uppercase;
+    color: var(--theme-color-3);
+    font-size: 20pt;
+    text-align: center;
+}
+
 
 
 
