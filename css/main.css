@@ -50,7 +50,7 @@ body {
     padding: 0;
     background-size: 1600px;
     background-position-x: 50%;
-    /* background-position-y: -229px; */
+    background-position-y: -232px;
     background-repeat: no-repeat;
 
     background-image: url('../img/SBS_Book_WebSite.jpg');
@@ -245,8 +245,9 @@ section h2 {
 
 #hero .text .text-wrapper {
     flex: 1;
-    max-width: 566px;
+    max-width: 547px;
     padding-left: 30px;
+    padding-right: 20px;
 }
 
 #hero figure {
@@ -271,6 +272,7 @@ section h2 {
     font-family: 'DINNeuzeitGroteskStd-Bold';
     font-size: 44pt;
     margin: 18px 0 20px 0;
+    letter-spacing: .012em;
 }
 
 #hero h2 {
@@ -280,6 +282,7 @@ section h2 {
     font-size: 22pt;
     margin: 0 0 16px 0;
     line-height: 1.1em;
+    letter-spacing: .025em;
 }
 
 #hero h3 {
@@ -288,18 +291,21 @@ section h2 {
     font-weight: 400;
     font-size: 18pt;
     margin: 22px 0 0 0;
+    letter-spacing: .02em;
 }
 
 #hero h4 {
     color: var(--theme-color-4);
     font-weight: 400;
     font-size: 18.5pt;
+    letter-spacing: .006em;
+    line-height: 1.1em;
 }
 
 #hero summary {
     list-style: none;
     margin: 15px 0 36px 0;
-    line-height: 1.3em;
+    line-height: 1.32em;
     font-size: 15pt;
 }
 
@@ -331,15 +337,16 @@ section h2 {
 
 #key-points .wrapper {
     max-width: 960px;
+    padding-bottom: 34px;
 }
 
 #key-points .title {
     max-width: 525px;
-    margin: 0 auto 30px auto;
+    margin: 0 auto 35px auto;
 }
 
 #key-points h2 {
-    margin: 5px 0 8px 0;
+    margin: 3px 0 8px 0;
     padding: 5px 0 0 0;
     text-transform: uppercase;
     color: #fff;
@@ -369,7 +376,7 @@ section h2 {
     margin: 0 10px;
     padding: 0 10px;
     text-align: center;
-    line-height: 1.35em;
+    line-height: 1.4em;
 }
 
 #key-points .col2 {
@@ -384,6 +391,11 @@ section h2 {
 
 #editors {
     background-color: #fff;
+}
+
+#editors .wrapper {
+    padding-top: 34px;
+    padding-bottom: 44px;
 }
 
 #editors h2 {
@@ -401,10 +413,12 @@ section h2 {
     text-align: center;
     max-width: 670px;
     margin: 0 auto;
+    font-style: italic;
+    line-height: 1.12em;
 }
 
 #editors figure {
-    width: 150px;
+    width: 155px;
     margin: 30px auto;
     aspect-ratio: 1;
     border: 5px solid var(--theme-color-3);
@@ -416,7 +430,7 @@ section h2 {
     font-size: 20pt;
     font-weight: 400;
     text-align: center;
-    margin: 0 0 5px 0;
+    margin: 0 0 2px 0;
 }
 
 #editors p {
@@ -447,6 +461,7 @@ section h2 {
 
 #authors h2 {
     color: var(--theme-color-4);
+    margin-top: 14px;
     padding-bottom: 8px;
 }
 
@@ -456,7 +471,7 @@ section h2 {
     max-width: 800px;
     margin: 10px auto 14px auto;
     text-align: center;
-    line-height: 1.4em;
+    line-height: 1.38em;
 }
 
 #authors .cols {
@@ -472,7 +487,7 @@ section h2 {
 
 #authors .cols .col img {
     display: block;
-    max-width: 152px;
+    max-width: 150px;
     margin: 4px auto 24px auto;
 }
 
