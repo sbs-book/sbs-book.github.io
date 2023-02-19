@@ -44,6 +44,10 @@ a {
     color: inherit;
 }
 
+a:hover {
+    filter: brightness(125%);
+}
+
 summary {
     list-style: none;
 }
@@ -57,7 +61,7 @@ body {
     padding: 0;
     background-size: 1600px;
     background-position-x: 50%;
-    background-position-y: -230px;
+    background-position-y: -345px;
     background-repeat: no-repeat;
 
     background-image: url('../img/SBS_Book_WebSite.jpg');
@@ -817,6 +821,10 @@ section h2 {
     width: 100%;
 }
 
+#message .wrapper {
+    padding-bottom: 28px;
+}
+
 #message h2 {
     padding-top: 5px;
     color: #fff;
@@ -830,7 +838,7 @@ section h2 {
 #message form textarea {
     display: block;
     width: 50%;
-    padding: 10px 18px;
+    padding: 11px 18px;
     margin: 22px auto;
     border-radius: 10px;
     border: 0;
@@ -846,8 +854,28 @@ section h2 {
     height: 200px;
     min-height: 50px;
     max-height: 500px;
-    min-width: 512px;
+    /* min-width: 512px; */
     max-width: 512px;
+    margin-bottom: 30px;
+}
+
+#message input.submit {
+    width: 20%;
+    text-transform: uppercase;
+    color: var(--theme-color-4);
+    border-radius: 30px;
+    padding: 16px;
+    cursor: pointer;
+}
+
+#message input.submit:hover {
+    filter: brightness(125%);
+}
+
+#message input.submit:active {
+    position: relative;
+    top: 1px;
+    left: 1px;
 }
 
 
@@ -857,6 +885,24 @@ section h2 {
 
 #mail {
     background-color: #fff;
+}
+
+#mail .wrapper {
+    padding-top: 22px;
+    width: 100%;
+}
+
+#mail h2 {
+    color: var(--theme-color-3);
+    text-transform: none;
+    font-size: 30pt;
+    max-width: 50%;
+    margin: 14px auto;
+    line-height: 1.25em;
+}
+
+#mail a {
+    color: var(--theme-color-4);
 }
 
 
