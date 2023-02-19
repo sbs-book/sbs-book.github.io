@@ -769,6 +769,10 @@ section h2 {
     margin-top: 26px;
 }
 
+#further a:hover {
+    filter: brightness(105%);
+}
+
 #further ul {
     margin-top: 40px;
     display: flex;

@@ -15,11 +15,11 @@
 
 ## Co-editors
 
-* **Keith A. Findley**, University of Wisconsin, Madison,
-* **Cyrille Rossant**, University College London,
-* **Kana Sasakura**, Konan University, Japan,
-* **Leila Schneps**, Sorbonne Université, Paris,
-* **Waney Squier**, John Radcliffe Hospital, Oxford,
+* **Keith A. Findley**, University of Wisconsin, Madison, US
+* **Cyrille Rossant**, University College London, UK
+* **Kana Sasakura**, Konan University, Japan
+* **Leila Schneps**, Sorbonne Université, Paris, France
+* **Waney Squier**, John Radcliffe Hospital, Oxford, UK
 * **Knut Wester**, Universitetet i Bergen, Norway
 
 ## Topic
@@ -36,4 +36,4 @@ N/A
 
 ## References
 
-Coming soon.
+* Many references can be found on [Cyrille Rossant's introduction to the SBS/AHT controversy](https://cyrille.rossant.net/introduction-shaken-baby-syndrome-controversy/#sec-biblio).
