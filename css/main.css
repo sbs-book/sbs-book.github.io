@@ -50,7 +50,7 @@ body {
     padding: 0;
     background-size: 1600px;
     background-position-x: 50%;
-    background-position-y: 0;
+    background-position-y: -229px;
     background-repeat: no-repeat;
 
     background-image: url('../img/SBS_Book_WebSite.jpg');
@@ -317,6 +317,9 @@ section h2 {
 
 #key-points {
     background-color: var(--theme-color-4);
+}
+
+#key-points .wrapper {
     max-width: 960px;
 }
 
@@ -428,15 +431,20 @@ section h2 {
     background-color: var(--theme-color-2);
 }
 
+#authors .wrapper {
+    padding-top: 35px;
+}
+
 #authors h2 {
     color: var(--theme-color-4);
+    padding-bottom: 8px;
 }
 
 #authors summary {
     font-size: 14pt;
     list-style: none;
     max-width: 800px;
-    margin: 10px auto;
+    margin: 10px auto 14px auto;
     text-align: center;
     line-height: 1.4em;
 }
@@ -454,8 +462,8 @@ section h2 {
 
 #authors .cols .col img {
     display: block;
-    max-width: 160px;
-    margin: 10px auto;
+    max-width: 152px;
+    margin: 4px auto 24px auto;
 }
 
 #authors .col h3 {
@@ -463,6 +471,74 @@ section h2 {
     color: var(--theme-color-3);
     font-size: 20pt;
     text-transform: uppercase;
+}
+
+#authors ul {
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#authors ul.medicine {
+    margin-left: 30px;
+}
+
+#authors ul.science {
+    margin-left: 38px;
+}
+
+#authors ul.law {
+    margin-left: 63px;
+}
+
+#authors ul li {
+    color: var(--theme-color-4);
+    font-size: 14pt;
+    margin-bottom: 28px;
+}
+
+#authors ul li i {
+    display: inline-block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}
+
+#authors i.country-au {
+    background-image: url("../img/SBS_Authors_Country-AU.png");
+}
+
+#authors i.country-fr {
+    background-image: url("../img/SBS_Authors_Country-FR.png");
+}
+
+#authors i.country-gb {
+    background-image: url("../img/SBS_Authors_Country-GB.png");
+}
+
+#authors i.country-jp {
+    background-image: url("../img/SBS_Authors_Country-JP.png");
+}
+
+#authors i.country-nw {
+    background-image: url("../img/SBS_Authors_Country-NW.png");
+}
+
+#authors i.country-nz {
+    background-image: url("../img/SBS_Authors_Country-NZ.png");
+}
+
+#authors i.country-sw {
+    background-image: url("../img/SBS_Authors_Country-SW.png");
+}
+
+#authors i.country-us {
+    background-image: url("../img/SBS_Authors_Country-US.png");
 }
 
 
@@ -474,6 +550,59 @@ section h2 {
 #numbers {
     background-color: var(--theme-color-4);
 }
+
+#numbers .wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+    padding-bottom: 62px;
+}
+
+#numbers .wrapper .col {
+    flex: 1;
+    width: 100%;
+}
+
+#numbers .col .icon {
+    width: 130px;
+    height: 130px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+#numbers .col1 .icon {
+    background-image: url("../img/Authors_Icon_white.png");
+}
+
+#numbers .col2 .icon {
+    background-image: url("../img/Countries_Icon_white.png");
+}
+
+#numbers .col3 .icon {
+    background-image: url("../img/Disciplines_Icon_white.png");
+}
+
+#numbers .col .number {
+    font-size: 64pt;
+    font-weight: bold;
+    color: white;
+    margin: 10px auto 0 auto;
+    text-align: center;
+}
+
+#numbers .col .name {
+    font-size: 21pt;
+    font-weight: bold;
+    color: var(--theme-color-3);
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+
+
 
 
 
