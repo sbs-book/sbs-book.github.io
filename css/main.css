@@ -50,7 +50,7 @@ body {
     padding: 0;
     background-size: 1600px;
     background-position-x: 50%;
-    background-position-y: -229px;
+    /* background-position-y: -229px; */
     background-repeat: no-repeat;
 
     background-image: url('../img/SBS_Book_WebSite.jpg');
@@ -116,9 +116,9 @@ header .wrap-right {
 
 header #cambridge {
     background-color: var(--theme-color-4);
-    flex: 0 0 150px;
+    flex: 0 0 147px;
     height: 100%;
-    width: 27.2%;
+    /* width: 27.2%; */
     margin: 0;
     text-align: right;
     display: flex;
@@ -128,12 +128,12 @@ header #cambridge {
 
 
 header #cambridge img {
-    height: 25%;
-    margin: 0 6px 0 0;
+    height: 24%;
+    margin: 0 5px 0 0;
 }
 
 header #medicine {
-    margin: 0 0 0 8px;
+    margin: 0 0 0 10px;
     flex: 0;
     color: var(--theme-color-4);
     font-weight: 500;
@@ -154,7 +154,7 @@ header #menu {
 
 header #menu ul {
     margin: 0;
-    padding: 0 0 0 32px;
+    padding: 0 0 0 48px;
 }
 
 header #menu ul li {
@@ -166,8 +166,15 @@ header #menu ul li a:hover {
     filter: brightness(125%);
 }
 
+header #menu ul li.button {
+    margin: 0 28px 0 0;
+}
+
 header #menu button {
+    padding: 11px 29px;
     background-color: var(--theme-color-4);
+    position: relative;
+    top: -2px;
 }
 
 
@@ -218,7 +225,7 @@ section h2 {
 }
 
 #hero .wrapper {
-    padding: 30px 0 0 0;
+    padding: 20px 0 0 0;
     flex: 1;
     display: flex;
     flex-wrap: wrap;
@@ -228,7 +235,7 @@ section h2 {
 
 #hero .text {
     flex: 2.3;
-    padding: 10px 0;
+    padding: 8px 0;
     margin: 0;
     display: flex;
     flex-wrap: nowrap;
@@ -238,20 +245,20 @@ section h2 {
 
 #hero .text .text-wrapper {
     flex: 1;
-    max-width: 576px;
+    max-width: 566px;
     padding-left: 30px;
 }
 
 #hero figure {
-    flex: 1.7;
+    flex: 1.75;
     margin: 0;
     width: 100%;
     height: 100%;
-    min-height: 574px;
-    background-image: url('../img/book1.jpg');
+    min-height: 586px;
+    background-image: url('../img/SBS_Book_MockUp_01.webp');
     background-repeat: no-repeat;
-    background-position: -15px -18px;
-    background-size: cover;
+    background-position: -171px -84px;
+    background-size: 126%;
 }
 
 #hero figure img {
@@ -263,7 +270,7 @@ section h2 {
     color: white;
     font-family: 'DINNeuzeitGroteskStd-Bold';
     font-size: 44pt;
-    margin: 8px 0 20px 0;
+    margin: 18px 0 20px 0;
 }
 
 #hero h2 {
@@ -280,33 +287,36 @@ section h2 {
     color: var(--theme-color-3);
     font-weight: 400;
     font-size: 18pt;
-    margin: 18px 0 0 0;
+    margin: 22px 0 0 0;
 }
 
 #hero h4 {
     color: var(--theme-color-4);
     font-weight: 400;
     font-size: 18.5pt;
-    margin: 2px 0 0 0;
 }
 
 #hero summary {
     list-style: none;
-    margin: 20px 0 40px 0;
-    line-height: 1.25em;
+    margin: 15px 0 36px 0;
+    line-height: 1.3em;
     font-size: 15pt;
 }
 
 #hero button {
     text-transform: uppercase;
     font-size: 14pt;
-    padding: 16px 44px;
-    margin-right: 22px;
+    padding: 16px 39px;
+    margin-right: 26px;
 }
 
 #hero button.learn {
     background-color: white;
     color: var(--theme-color-4);
+}
+
+#hero button.buy {
+    padding: 16px 44px;
 }
 
 
@@ -480,7 +490,7 @@ section h2 {
 }
 
 #authors ul.medicine {
-    margin-left: 30px;
+    margin-left: 31px;
 }
 
 #authors ul.science {
