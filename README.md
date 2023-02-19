@@ -1,6 +1,6 @@
 # Shaken Baby Syndrome: Investigating the Abusive Head Trauma Controversy
 
-[![https://www.cambridge.org/core/books/shaken-baby-syndrome/67016F1A1F6ED92141A179E9A5D145FB](img/SBS_Book_MockUp_01.webp)]()
+[![](img/SBS_Book_MockUp_01.webp)](https://www.cambridge.org/core/books/shaken-baby-syndrome/67016F1A1F6ED92141A179E9A5D145FB)
 
 ## Book info
 
