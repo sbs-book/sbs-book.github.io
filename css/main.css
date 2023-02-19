@@ -813,8 +813,42 @@ section h2 {
 
 #message {
     background-color: var(--theme-color-4);
+    text-align: center;
+    width: 100%;
 }
 
+#message h2 {
+    padding-top: 5px;
+    color: #fff;
+}
+
+#message form {
+    margin: 43px auto 20px auto;
+}
+
+#message form input,
+#message form textarea {
+    display: block;
+    width: 50%;
+    padding: 10px 18px;
+    margin: 22px auto;
+    border-radius: 10px;
+    border: 0;
+    font-size: 14pt;
+}
+
+#message form input::placeholder,
+#message form textarea::placeholder {
+    color: #aaa;
+}
+
+#message form textarea {
+    height: 200px;
+    min-height: 50px;
+    max-height: 500px;
+    min-width: 512px;
+    max-width: 512px;
+}
 
 
 /*************************************************************************************************/
