@@ -76,12 +76,9 @@ p strong {
 }
 
 abbr[title] {
-    /* text-decoration: none; */
     text-underline-offset: 4px;
     text-decoration-thickness: 3px;
     text-decoration-color: var(--theme-color-1);
-    /* position: relative;
-    border-bottom: 3px dotted var(--theme-color-1); */
 }
 
 
@@ -145,19 +142,16 @@ header .wrap-right {
     flex: 1;
 }
 
-
 header #cambridge {
     background-color: var(--theme-color-4);
     flex: 0 0 147px;
     height: 100%;
-    /* width: 27.2%; */
     margin: 0;
     text-align: right;
     display: flex;
     justify-content: right;
     align-items: center;
 }
-
 
 header #cambridge img {
     height: 24%;
@@ -198,10 +192,6 @@ header #menu ul li {
 header #menu ul li a:hover {
     filter: brightness(125%);
 }
-
-/* header #menu ul li.button {
-    margin: 0 28px 0 0;
-} */
 
 header #menu .button {
     padding: 11px 29px;
@@ -284,7 +274,8 @@ section h2 {
     padding-right: 20px;
 }
 
-#hero figure {
+#hero a.cover {
+    display: block;
     flex: 1.75;
     margin: 0;
     width: 100%;
@@ -296,8 +287,8 @@ section h2 {
     background-size: 126%;
 }
 
-#hero figure img {
-    width: 100%;
+#hero a.cover:hover {
+    filter: brightness(103%);
 }
 
 #hero h1 {
@@ -342,6 +333,10 @@ section h2 {
     font-size: 15pt;
 }
 
+#hero summary strong {
+    font-weight: 500;
+}
+
 #hero .buttons {
     margin-top: 35px;
     padding: 20px 0;
@@ -379,7 +374,7 @@ section h2 {
 }
 
 #key-points .title {
-    max-width: 525px;
+    max-width: 700px;
     margin: 0 auto 35px auto;
 }
 
@@ -402,6 +397,9 @@ section h2 {
     font-weight: 400;
 }
 
+#key-points strong {
+    font-weight: 500;
+}
 
 #key-points .cols {
     display: flex;
@@ -565,10 +563,18 @@ section h2 {
 
 #authors summary {
     font-size: 14pt;
-    max-width: 800px;
+    max-width: 700px;
     margin: 10px auto 14px auto;
     text-align: center;
     line-height: 1.38em;
+}
+
+#authors summary strong {
+    font-weight: 500;
+}
+
+#authors summary a {
+    color: var(--theme-color-4);
 }
 
 #authors .cols {
@@ -778,10 +784,15 @@ section h2 {
 }
 
 #topic .cols .text-wrapper p {
-    margin: 8px 0 50px 0;
+    margin: 8px 0 25px 0;
     font-size: 14pt;
     line-height: 1.39em;
 }
+
+#topic .cols .text-wrapper p:last-of-type {
+    margin-bottom: 50px;
+}
+
 
 
 /*************************************************************************************************/
@@ -985,6 +996,7 @@ section h2 {
 
 #mail .wrapper {
     padding-top: 22px;
+    padding-bottom: 22px;
     width: 100%;
 }
 
@@ -1010,7 +1022,7 @@ section h2 {
 footer {
     background-color: var(--theme-color-3);
     width: 100%;
-    padding: 26px 0 80px 0;
+    padding: 26px 0 60px 0;
 }
 
 footer .copyright {
