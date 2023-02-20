@@ -452,10 +452,10 @@ section h2 {
 
 #editors .quote-wrapper {
     width: 100%;
-    background-image: url("../img/quote1.png"), url("../img/quote2.png");
+    background-image: url("../img/quote0.svg"), url("../img/quote1.svg");
     background-repeat: no-repeat, no-repeat;
-    background-size: 120px, 100px;
-    background-position: -25px -14px, right -13px bottom -8px;
+    background-size: 64px, 64px;
+    background-position: 17px 16px, right 17px bottom 12px;
 }
 
 #editors .quote {
