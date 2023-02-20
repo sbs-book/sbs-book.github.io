@@ -468,6 +468,10 @@ section h2 {
     aspect-ratio: 1;
     border: 7px solid var(--theme-color-1);
     border-radius: 100%;
+    background-image: url("../img/keithfindley.jpg");
+    background-size: 105%;
+    background-position: -3px -22px;
+    background-repeat: no-repeat;
 }
 
 #editors h3 {
