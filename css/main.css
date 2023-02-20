@@ -292,7 +292,7 @@ section h2 {
     min-height: 586px;
     background-image: url('../img/SBS_Book_MockUp_01.webp');
     background-repeat: no-repeat;
-    background-position: -171px -84px;
+    background-position: right 14px top -84px;
     background-size: 126%;
 }
 
@@ -342,6 +342,11 @@ section h2 {
     font-size: 15pt;
 }
 
+#hero .buttons {
+    margin-top: 35px;
+    padding: 20px 0;
+}
+
 #hero .button {
     text-transform: uppercase;
     font-size: 14pt;
@@ -370,7 +375,7 @@ section h2 {
 
 #key-points .wrapper {
     max-width: 960px;
-    padding-bottom: 34px;
+    padding-bottom: 50px;
 }
 
 #key-points .title {
@@ -729,7 +734,7 @@ section h2 {
 }
 
 #topic .cols .text-wrapper p {
-    margin: 8px 0 26px 0;
+    margin: 8px 0 50px 0;
     font-size: 14pt;
     line-height: 1.39em;
 }
