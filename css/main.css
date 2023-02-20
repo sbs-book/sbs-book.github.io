@@ -158,12 +158,12 @@ header #cambridge {
 }
 
 header #cambridge img {
-    height: 24%;
+    height: 25%;
     margin: 0 5px 0 0;
 }
 
 header #medicine {
-    margin: 0 0 0 10px;
+    margin: 1px 0 0 10px;
     flex: 0;
     color: var(--theme-color-4);
     letter-spacing: 0.01em;
@@ -201,7 +201,7 @@ header #menu .button {
     padding: 11px 29px;
     background-color: var(--theme-color-4);
     position: relative;
-    top: -2px;
+    top: 1px;
 }
 
 
@@ -476,42 +476,43 @@ section h2 {
     border: 7px solid var(--theme-color-1);
     border-radius: 100%;
     background-repeat: no-repeat;
+    background-size: 160px;
 }
 
 #editors figure.editor-findley {
     background-image: url("../img/editor-findley.jpg");
-    background-size: 105%;
-    background-position: -3px -22px;
+    /* background-size: 105%; */
+    /* background-position: -3px -22px; */
 }
 
 #editors figure.editor-rossant {
     background-image: url("../img/editor-rossant.jpg");
-    background-size: 105%;
-    background-position: -3px -2px;
+    /* background-size: 105%; */
+    /* background-position: -3px -2px; */
 }
 
 #editors figure.editor-sasakura {
     background-image: url("../img/editor-sasakura.jpg");
-    background-size: 205%;
-    background-position: -83px -2px;
+    /* background-size: 205%; */
+    /* background-position: -83px -2px; */
 }
 
 #editors figure.editor-schneps {
     background-image: url("../img/editor-schneps.jpg");
-    background-size: 105%;
-    background-position: -5px -2px;
+    /* background-size: 105%; */
+    /* background-position: -5px -2px; */
 }
 
 #editors figure.editor-squier {
     background-image: url("../img/editor-squier.jpg");
-    background-size: 205%;
-    background-position: -55px -2px;
+    /* background-size: 205%; */
+    /* background-position: -55px -2px; */
 }
 
 #editors figure.editor-wester {
     background-image: url("../img/editor-wester.jpg");
-    background-size: 105%;
-    background-position: -5px -2px;
+    /* background-size: 105%; */
+    /* background-position: -5px -2px; */
 }
 
 #editors h3 {
