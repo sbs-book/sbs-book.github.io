@@ -750,6 +750,10 @@ section h2 {
     color: var(--theme-color-4);
 }
 
+#info button.download:hover {
+    filter: brightness(105%);
+}
+
 
 
 /*************************************************************************************************/
