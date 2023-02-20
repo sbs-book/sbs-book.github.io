@@ -63,8 +63,8 @@ body {
 
 
     /* background-size: 1600px;
-    background-position-x: 50%;
-    background-position-y: -16px;
+    background-position-x: calc(50% + 30px);
+    background-position-y: 0px;
     background-repeat: no-repeat;
     background-image: url('../img/SBS_Book_WebSite.jpg');
     opacity: .75; */
@@ -434,7 +434,8 @@ section h2 {
 
 #editors .wrapper {
     padding-top: 32px;
-    padding-bottom: 44px;
+    padding-bottom: 88px;
+    max-width: 900px;
 }
 
 #editors h2 {
@@ -448,19 +449,18 @@ section h2 {
 }
 
 #editors .quote-wrapper {
+    width: 100%;
     background-image: url("../img/quote1.png"), url("../img/quote2.png");
     background-repeat: no-repeat, no-repeat;
     background-size: 120px, 100px;
-    background-position: 45px -14px, bottom 0px right 40px;
+    background-position: -25px -14px, right -13px bottom -8px;
 }
 
 #editors .quote {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 25px 100px;
     font-size: 20pt;
     color: var(--theme-color-4);
     text-align: center;
-    max-width: 670px;
     margin: 0 auto;
     font-style: italic;
     font-weight: 500;
@@ -469,14 +469,47 @@ section h2 {
 
 #editors figure {
     width: 155px;
-    margin: 10px auto 30px auto;
+    margin: 10px auto 22px auto;
     aspect-ratio: 1;
     border: 7px solid var(--theme-color-1);
     border-radius: 100%;
-    background-image: url("../img/keithfindley.jpg");
+    background-repeat: no-repeat;
+}
+
+#editors figure.editor-findley {
+    background-image: url("../img/editor-findley.jpg");
     background-size: 105%;
     background-position: -3px -22px;
-    background-repeat: no-repeat;
+}
+
+#editors figure.editor-rossant {
+    background-image: url("../img/editor-rossant.jpg");
+    background-size: 105%;
+    background-position: -3px -2px;
+}
+
+#editors figure.editor-sasakura {
+    background-image: url("../img/editor-sasakura.jpg");
+    background-size: 205%;
+    background-position: -83px -2px;
+}
+
+#editors figure.editor-schneps {
+    background-image: url("../img/editor-schneps.jpg");
+    background-size: 105%;
+    background-position: -5px -2px;
+}
+
+#editors figure.editor-squier {
+    background-image: url("../img/editor-squier.jpg");
+    background-size: 205%;
+    background-position: -55px -2px;
+}
+
+#editors figure.editor-wester {
+    background-image: url("../img/editor-wester.jpg");
+    background-size: 105%;
+    background-position: -5px -2px;
 }
 
 #editors h3 {
@@ -489,14 +522,25 @@ section h2 {
 
 #editors p {
     color: var(--theme-color-4);
-    margin: 0;
+    margin: 0 auto 32px auto;
     font-size: 14pt;
     font-weight: 400;
+    max-width: 600px;
     text-align: center;
 }
 
-#editors nav {
-    margin: 20px 0;
+.flickity-page-dots .dot {
+    background: var(--theme-color-4);
+    opacity: .5;
+    width: 13px;
+    height: 13px;
+}
+
+.flickity-page-dots .dot.is-selected {
+    /* background: var(--theme-color-4); */
+    opacity: 1.0;
+    width: 14px;
+    height: 14px;
 }
 
 

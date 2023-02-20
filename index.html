@@ -12,6 +12,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
+    <!-- FLICKITY -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
 
@@ -92,7 +96,6 @@
                     </div>
                 </div>
                 <figure>
-                    <!-- <img src="img/book1.jpg"> -->
                 </figure>
             </div>
         </section>
@@ -126,15 +129,18 @@
             <div class="wrapper">
                 <h2>Co-editors</h2>
 
-                <div class="carousel">
-                    <div class="carousel-wrapper">
+                <div class="carousel" data-flickity='{ "draggable": "true", "autoPlay": false, "contain": true, "wrapAround": true }'>
+
+
+                    <!-- KEITH A FINDLEY -->
+                    <div class="carousel-cell cell-findley">
                         <div class="quote-wrapper">
                             <div class="quote">
-                                In <abbr title="Shaken Baby Syndrome/Abusive Head Trauma">SBS/AHT</abbr>, the tension at the interface of law and science is starkly evident. Science is never settled, it continually evolves, replacing old truths with new, better-informed truths. The law demands swift and deﬁnitive answers. It does not leave much room for incorporating new knowledge.
+                                In <abbr title="Shaken Baby Syndrome/Abusive Head Trauma">SBS/AHT</abbr>, the tension at the interface of law and science is starkly evident. Science is never settled, it continually evolves, replacing old truths with new, better-informed truths. The law demands swift and definitive answers. It does not leave much room for incorporating new knowledge.
                             </div>
                         </div>
                         <div class="picture">
-                            <figure></figure>
+                            <figure class="editor-findley"></figure>
                         </div>
 
                         <h3>Keith A. Findley</h3>
@@ -142,7 +148,98 @@
                             is Professor of Law at the University of Wisconsin, and former president of the Innocence Network.
                         </p>
                     </div>
-                    <nav>&nbsp;</nav>
+
+
+                    <!-- CYRILLE ROSSANT -->
+                    <div class="carousel-cell">
+                        <div class="quote-wrapper">
+                            <div class="quote">
+                                French national SBS diagnosis guidelines go well beyond the standards in other countries in terms of claiming "certainty" on the sole basis of one or two components of the "triad". This diagnostic process contradicts the recent international "consensus statement" denying the existence of "near-mechanical determination based on the 'triad'".
+                            </div>
+                        </div>
+                        <div class="picture">
+                            <figure class="editor-rossant"></figure>
+                        </div>
+
+                        <h3>Cyrille Rossant</h3>
+                        <p>
+                            is a neuroscience researcher and software engineer at the Institute of Neurology, University College London.
+                        </p>
+                    </div>
+
+
+                    <!-- KANA SASAKURA -->
+                    <div class="carousel-cell">
+                        <div class="quote-wrapper">
+                            <div class="quote">
+                                The <abbr title="Shaken Baby Syndrome/Abusive Head Trauma">SBS/AHT</abbr> hypothesis has become a controversial topic of debate in Japan, and a number of court decisions in criminal cases since 2018 have questioned the hypothesis or diagnoses based on it. A full review of cases that were convicted in the past is essential.
+                            </div>
+                        </div>
+                        <div class="picture">
+                            <figure class="editor-sasakura"></figure>
+                        </div>
+
+                        <h3>Kana Sasakura</h3>
+                        <p>
+                            is a professor of criminal procedure law at Konan University, Kobe. She is the co- director of the SBS Review Project Japan as well as the deputy director of the Innocence Project Japan.
+                        </p>
+                    </div>
+
+
+                    <!-- LEILA SCHNEPS -->
+                    <div class="carousel-cell">
+                        <div class="quote-wrapper">
+                            <div class="quote">
+                                There are multiple published cases of children presenting with subdural and retinal hemorrhage after witnessed short falls. Yet the claim that a short fall must be rejected as an explanation for these lesions is regularly cited in court as proof that a parent or caretaker is lying about the history of a child's accident.
+                            </div>
+                        </div>
+                        <div class="picture">
+                            <figure class="editor-schneps"></figure>
+                        </div>
+
+                        <h3>Leila Schneps</h3>
+                        <p>
+                            is Professor of Mathematics working at Sorbonne University, Paris.
+                        </p>
+                    </div>
+
+
+                    <!-- WANEY SQUIER -->
+                    <div class="carousel-cell">
+                        <div class="quote-wrapper">
+                            <div class="quote">
+                                The explanations of the shaking hypothesis currently oﬀered mainly misunderstand infant neuropathology. Others rely on confessions and consensus which rank low in the hierarchy of scientific evidence. A better understanding of pathology and science should lead to more accurate diagnosis and fairer assessment of cases in the courts.
+                            </div>
+                        </div>
+                        <div class="picture">
+                            <figure class="editor-squier"></figure>
+                        </div>
+
+                        <h3>Waney Squier</h3>
+                        <p>
+                            is a retired paediatric neuropathologist, formerly John Radcliffe Hospital, Oxford, UK.
+                        </p>
+                    </div>
+
+
+                    <!-- KNUT WESTER -->
+                    <div class="carousel-cell">
+                        <div class="quote-wrapper">
+                            <div class="quote">
+                                I am quite convinced that benign external hydrocephalus is very often misdiagnosed as abusive head trauma, thus causing a large proportion of false accusations of child abuse.
+                            </div>
+                        </div>
+                        <div class="picture">
+                            <figure class="editor-wester"></figure>
+                        </div>
+
+                        <h3>Knut Wester</h3>
+                        <p>
+                            is a neurosurgeon, and Professor Emeritus in the Department of Clinical Medicine at the University of Bergen, Norway.
+                        </p>
+                    </div>
+
+
                 </div>
             </div>
         </section>
