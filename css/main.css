@@ -25,6 +25,25 @@
 
 
 
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+
+    /* background-size: 1600px;
+    background-position-x: calc(50% + 30px);
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    background-image: url('../img/SBS_Book_WebSite.jpg');
+    opacity: .75; */
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     font-family: 'Roboto', sans-serif;
 }
@@ -54,21 +73,6 @@ summary {
 
 ul {
     list-style: none;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-
-
-    /* background-size: 1600px;
-    background-position-x: calc(50% + 30px);
-    background-position-y: 0px;
-    background-repeat: no-repeat;
-    background-image: url('../img/SBS_Book_WebSite.jpg');
-    opacity: .75; */
-
 }
 
 p strong {
@@ -1029,6 +1033,14 @@ footer .copyright {
     color: #fff;
     text-align: center;
     font-size: 13pt;
+}
+
+footer .copyright a {
+    opacity: .75;
+}
+
+footer .copyright a:hover {
+    opacity: .85;
 }
 
 footer .privacy {
