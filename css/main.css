@@ -61,18 +61,27 @@ body {
     padding: 0;
     overflow-x: hidden;
 
-    /*
-    background-size: 1600px;
+
+    /* background-size: 1600px;
     background-position-x: 50%;
-    background-position-y: -297px;
+    background-position-y: -16px;
     background-repeat: no-repeat;
     background-image: url('../img/SBS_Book_WebSite.jpg');
-    opacity: .75;
-    */
+    opacity: .75; */
+
 }
 
 p strong {
     font-weight: 500;
+}
+
+abbr[title] {
+    /* text-decoration: none; */
+    text-underline-offset: 4px;
+    text-decoration-thickness: 3px;
+    text-decoration-color: var(--theme-color-1);
+    /* position: relative;
+    border-bottom: 3px dotted var(--theme-color-1); */
 }
 
 
@@ -425,14 +434,24 @@ section h2 {
 
 #editors h2 {
     color: var(--theme-color-1);
+    margin-bottom: 0;
 }
 
 #editors .carousel {
     width: 100%;
-    margin: 25px 0;
+    margin: 0;
+}
+
+#editors .quote-wrapper {
+    background-image: url("../img/quote1.png"), url("../img/quote2.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 120px, 100px;
+    background-position: 45px -14px, bottom 0px right 40px;
 }
 
 #editors .quote {
+    padding-top: 25px;
+    padding-bottom: 25px;
     font-size: 20pt;
     color: var(--theme-color-4);
     text-align: center;
@@ -445,7 +464,7 @@ section h2 {
 
 #editors figure {
     width: 155px;
-    margin: 30px auto;
+    margin: 10px auto 30px auto;
     aspect-ratio: 1;
     border: 7px solid var(--theme-color-1);
     border-radius: 100%;
