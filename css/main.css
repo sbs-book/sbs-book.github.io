@@ -319,7 +319,7 @@ section h2 {
     min-height: 586px;
     background-image: url('../img/SBS_Book_MockUp_01.webp');
     background-repeat: no-repeat;
-    background-position: right 14px top -84px;
+    background-position: right -10% top 68%;
     background-size: 126%;
 }
 
@@ -790,7 +790,7 @@ section h2 {
 
     background-image: url('../img/SBS_Book_MockUp_02.webp');
     background-repeat: no-repeat;
-    background-position: left 127px top 61px;
+    background-position: left 13% top 61px;
     background-size: 50%;
 }
 
@@ -1045,9 +1045,10 @@ section h2 {
     color: var(--theme-color-3);
     text-transform: none;
     font-size: 30pt;
-    max-width: 50%;
+    max-width: 70%;
     margin: 14px auto;
     line-height: 1.25em;
+    overflow-wrap: break-word;
 }
 
 #mail a {
