@@ -491,7 +491,7 @@ section h2 {
 }
 
 #editors .quote {
-    padding: 25px 100px;
+    padding: 25px 15%;
     font-size: 20pt;
     color: var(--theme-color-4);
     text-align: center;
@@ -562,6 +562,10 @@ section h2 {
     font-weight: 400;
     max-width: 600px;
     text-align: center;
+}
+
+.flickity-button {
+    color: var(--theme-color-4);
 }
 
 .flickity-page-dots .dot {
