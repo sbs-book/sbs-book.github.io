@@ -55,12 +55,15 @@
 }
 
 
-
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 
 
     /* background-size: 1600px;
@@ -306,7 +309,7 @@ section h2 {
 #hero .text .text-wrapper {
     flex: 1;
     max-width: 547px;
-    padding-left: 30px;
+    padding-left: 70px;
     padding-right: 20px;
 }
 
@@ -334,6 +337,8 @@ section h2 {
     font-size: 44pt;
     margin: 18px 0 20px 0;
     letter-spacing: .012em;
+    overflow-wrap: normal;
+    white-space: nowrap;
 }
 
 #hero h2 {
@@ -364,7 +369,7 @@ section h2 {
 }
 
 #hero summary {
-    margin: 15px 0 36px 0;
+    margin: 15px 0 10px 0;
     line-height: 1.32em;
     font-size: 15pt;
 }
@@ -374,14 +379,15 @@ section h2 {
 }
 
 #hero .buttons {
-    margin-top: 35px;
+    margin-top: 20px;
     padding: 20px 0;
 }
 
 #hero .button {
     text-transform: uppercase;
     font-size: 14pt;
-    padding: 16px 39px;
+    padding: 10px 39px;
+    margin-top: 10px;
     margin-right: 26px;
 }
 

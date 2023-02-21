@@ -32,19 +32,27 @@
         text-align: center;
     }
 
+    #hero .wrapper {
+        padding: 0;
+    }
+
+    #hero h1 {
+        white-space: normal;
+    }
+
     #hero h2 {
         text-align: center;
     }
 
     #hero .text .text-wrapper {
-        padding: 20px 8%;
+        padding: 0 8% 20px 8%;
     }
 
     #hero a.cover {
         flex: 1;
         background-size: contain;
         background-position-x: center;
-        background-position: top -10px;
+        background-position: top;
         position: relative;
         top: -30px;
         margin-bottom: -50px;
@@ -52,5 +60,18 @@
 
     #hero h3 {
         margin: 20px auto;
+    }
+}
+
+/* <650 */
+@media screen and (max-width: 650px) {
+    #hero .buttons a {
+        display: block;
+    }
+
+    #hero a.cover {
+        background-size: cover;
+        min-height: 620px;
+        top: -40px;
     }
 }
