@@ -22,6 +22,38 @@
     src: url("../woff/DINNeuzeitGroteskStd-Light.woff") format("woff");
 }
 
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../woff/Roboto-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("../woff/Roboto-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../woff/Roboto-Italic.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: url("../woff/Roboto-MediumItalic.woff") format("woff");
+}
+
 
 
 
