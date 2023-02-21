@@ -477,6 +477,8 @@ section h2 {
 #editors .wrapper {
     padding-top: 32px;
     padding-bottom: 88px;
+    padding-left: 5%;
+    padding-right: 5%;
     max-width: 900px;
 }
 
@@ -570,10 +572,12 @@ section h2 {
     font-weight: 400;
     max-width: 600px;
     text-align: center;
+    padding: 10px 5%;
 }
 
 .flickity-button {
     color: var(--theme-color-4);
+    opacity: .75;
 }
 
 .flickity-page-dots .dot {

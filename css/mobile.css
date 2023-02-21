@@ -120,6 +120,36 @@
 /* AUTHORS */
 /*************************************************************************************************/
 
+/* <1000 */
+@media screen and (max-width: 1000px) {
+
+    #authors img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #authors ul {
+        margin-left: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #authors ul li {
+        line-height: 1.5em;
+    }
+
+}
+
+/* <650 */
+@media screen and (max-width: 650px) {
+    #authors .cols {
+        flex-direction: column;
+    }
+
+    #authors ul {
+        padding-left: 30%;
+    }
+}
 
 
 
