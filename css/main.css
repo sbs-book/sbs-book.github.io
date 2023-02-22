@@ -77,6 +77,7 @@ body {
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 65px;
 }
 
 * {
@@ -160,6 +161,8 @@ header {
     height: 69px;
     background: var(--theme-color-1);
     font-size: 13pt;
+    position: fixed;
+    z-index: 10;
 
     display: flex;
     flex-wrap: nowrap;
@@ -267,13 +270,13 @@ section .wrapper {
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 40px 5%;
 }
 
 section h2 {
     text-transform: uppercase;
     text-align: center;
-    margin: 16px 0;
+    margin: 0 0 20px 0;
     font-size: 24pt;
     font-weight: 500;
 }
@@ -285,7 +288,7 @@ section h2 {
 /*************************************************************************************************/
 
 #hero {
-    padding: 40px 0 0 0;
+    padding: 100px 0 0 0;
     background-color: var(--theme-color-2);
 }
 
@@ -413,9 +416,8 @@ section h2 {
 }
 
 #key-points .wrapper {
-    max-width: 960px;
-    padding-bottom: 50px;
-    padding: 40px 30px;
+    /* max-width: 960px; */
+    /* padding: 40px 40px 50px 40px; */
 }
 
 #key-points .title {
@@ -424,13 +426,13 @@ section h2 {
 }
 
 #key-points h2 {
-    margin: 3px 0 8px 0;
-    padding: 5px 0 0 0;
+    /* margin: 0 0 8px 0;
+    padding: 0 0 0 0; */
     text-transform: uppercase;
     color: #fff;
     text-align: center;
     font-size: 24pt;
-    font-weight: 400;
+    /* font-weight: 400; */
 }
 
 #key-points h3 {
@@ -476,11 +478,9 @@ section h2 {
 }
 
 #editors .wrapper {
-    padding-top: 32px;
-    padding-bottom: 88px;
-    padding-left: 5%;
-    padding-right: 5%;
-    max-width: 900px;
+    /* max-width: 900px; */
+    /* padding: 40px 5% 88px 5%; */
+    padding-bottom: 80px;
 }
 
 #editors h2 {
@@ -606,13 +606,13 @@ section h2 {
 }
 
 #authors .wrapper {
-    padding-top: 32px;
+    /* padding-top: 32px; */
 }
 
 #authors h2 {
     color: var(--theme-color-4);
-    margin-top: 14px;
-    padding-bottom: 8px;
+    /* margin-top: 14px;
+    padding-bottom: 8px; */
 }
 
 #authors summary {
@@ -656,21 +656,21 @@ section h2 {
 }
 
 #authors ul {
-    margin-top: 20px;
-    margin-left: 20px;
+    margin: 20px 0;
 }
 
 #authors ul.medicine {
-    margin-left: 31px;
+    padding-left: 20%;
 }
 
 #authors ul.science {
-    margin-left: 38px;
+    padding-left: 23%;
 }
 
 #authors ul.law {
-    margin-left: 19%;
-    margin-right: 20px;
+    padding-left: 31%;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
 }
 
 #authors ul li {
@@ -797,15 +797,12 @@ section h2 {
 
 #topic .wrapper {
     max-width: 1600px;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 22px;
-    padding-bottom: 0;
+    /* padding: 22px 5% 0 5%; */
     color: var(--theme-color-4);
 
     background-image: url('../img/SBS_Book_MockUp_02.webp');
     background-repeat: no-repeat;
-    background-position: left 13% top 61px;
+    background-position: left 13% top 80px;
     background-size: 50%;
 }
 
@@ -840,13 +837,13 @@ section h2 {
 }
 
 #topic .cols .text-wrapper p {
-    margin: 8px 0 25px 0;
+    margin: 0 0 25px 0;
     font-size: 14pt;
     line-height: 1.39em;
 }
 
 #topic .cols .text-wrapper p:last-of-type {
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 
@@ -862,12 +859,12 @@ section h2 {
 #info .wrapper {
     width: 100%;
     text-align: center;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 #info h2 {
     color: var(--theme-color-3);
-    margin: 25px auto 2px auto;
+    /* margin: 25px auto 2px auto; */
 }
 
 #info summary {
@@ -914,12 +911,12 @@ section h2 {
 }
 
 #further .wrapper {
-    padding-bottom: 58px;
+    /* padding-bottom: 58px; */
 }
 
 #further h2 {
     color: var(--theme-color-4);
-    margin-top: 26px;
+    /* margin-top: 26px; */
 }
 
 #further a:hover {
@@ -927,7 +924,7 @@ section h2 {
 }
 
 #further ul {
-    padding: 0 5%;
+    padding: 0;
     margin-top: 40px;
     display: flex;
     justify-content: center;
@@ -986,7 +983,7 @@ section h2 {
 }
 
 #message .wrapper {
-    padding-bottom: 28px;
+    /* padding-bottom: 28px; */
 }
 
 #message h2 {
@@ -1025,7 +1022,7 @@ section h2 {
 
 #message input.submit {
     width: 20%;
-    min-width: 100px;
+    min-width: 200px;
     text-transform: uppercase;
     color: var(--theme-color-4);
     border-radius: 30px;
@@ -1054,8 +1051,8 @@ section h2 {
 }
 
 #mail .wrapper {
-    padding-top: 22px;
-    padding-bottom: 22px;
+    /* padding-top: 22px;
+    padding-bottom: 22px; */
     width: 100%;
 }
 
