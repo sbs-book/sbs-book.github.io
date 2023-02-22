@@ -1,4 +1,120 @@
 /*************************************************************************************************/
+/* COLLAPSIBLE MENU */
+/* https://codepen.io/erikterwan/pen/EVzeRP */
+/*************************************************************************************************/
+
+@media screen and (max-width: 1000px) {
+
+    header #menu {
+        justify-content: right;
+        align-items: center;
+    }
+
+    header #menu .collapsible-menu {
+        display: block;
+        margin-right: 30px;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+
+    header #menu .collapsible-menu input {
+        display: block;
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        top: 14px;
+        right: 28px;
+
+        cursor: pointer;
+        opacity: 0;
+        z-index: 2;
+        -webkit-touch-callout: none;
+    }
+
+    /* Hamburger */
+    header #menu .collapsible-menu span {
+        display: block;
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative;
+        background: var(--theme-color-4);
+        border-radius: 3px;
+        z-index: 1;
+        transform-origin: 4px 0px;
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+            background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+            opacity 0.55s ease;
+    }
+
+    header #menu .collapsible-menu span:first-child {
+        transform-origin: 0% 0%;
+    }
+
+    header #menu .collapsible-menu span:nth-last-child(2) {
+        transform-origin: 0% 100%;
+    }
+
+    /*
+    * Transform all the slices of hamburger
+    * into a crossmark.
+    */
+    header #menu .collapsible-menu input:checked~span {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+    }
+
+    /*
+    * But let's hide the middle one.
+    */
+    header #menu .collapsible-menu input:checked~span:nth-last-child(3) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+    }
+
+    /*
+    * Oh yeah and the last one should go the other direction
+    */
+    header #menu .collapsible-menu input:checked~span:nth-last-child(2) {
+        transform: rotate(-45deg) translate(0, -1px);
+    }
+
+    /*
+    * Make this absolute positioned
+    * at the top left of the screen
+    */
+    header #menu ul {
+        position: absolute;
+        width: 180px;
+        margin: 0 0 0 -170px;
+        padding: 30px;
+        background: var(--theme-color-1);
+        list-style-type: none;
+        -webkit-font-smoothing: antialiased;
+        /* to stop flickering of text in safari */
+        transform-origin: 0% 0%;
+        transform: translate(100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+    }
+
+    header #menu ul li {
+        display: block;
+        padding: 10px 0;
+        font-size: 22px;
+    }
+
+    /*
+    * And let's slide it in from the left
+    */
+    #menu .collapsible-menu input:checked~ul {
+        transform: none;
+    }
+}
+
+
+
+/*************************************************************************************************/
 /* HERO */
 /*************************************************************************************************/
 
