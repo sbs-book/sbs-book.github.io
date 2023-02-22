@@ -1081,8 +1081,8 @@ section h2 {
 
 footer {
     background-color: var(--theme-color-3);
-    width: 100%;
-    padding: 26px 0 60px 0;
+    /* width: 100%; */
+    padding: 26px 5% 60px 5%;
 }
 
 footer .copyright {
