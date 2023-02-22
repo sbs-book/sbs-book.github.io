@@ -796,6 +796,8 @@ section h2 {
 
 #topic .wrapper {
     max-width: 1600px;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-top: 22px;
     padding-bottom: 0;
     color: var(--theme-color-4);

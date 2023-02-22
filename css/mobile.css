@@ -214,6 +214,73 @@
 /* TOPIC */
 /*************************************************************************************************/
 
+/* <1000 */
+@media screen and (max-width: 1000px) {
+
+    #topic .wrapper {
+        /* max-width: 100%; */
+        background-size: 50%;
+        background-position: left 13% top 100px;
+    }
+}
+
+
+
+/* <650 */
+@media screen and (max-width: 650px) {
+
+    #topic .cols {
+        flex-direction: column;
+    }
+
+    #topic .cols figure {
+        min-height: 90vw;
+    }
+
+    #topic .cols .text-wrapper {
+        max-width: max-content;
+    }
+
+    #topic .wrapper {
+        background-size: 96%;
+        background-position: left 228% top 18vw;
+    }
+
+}
+
+
+
+/* <450 */
+@media screen and (max-width: 450px) {
+
+    #topic .cols figure {
+        min-height: 90vw;
+    }
+
+    #topic .wrapper {
+        background-size: 96%;
+        background-position: left 228% top 25vw;
+    }
+
+}
+
+
+
+/* <350 */
+@media screen and (max-width: 350px) {
+
+    #topic .cols figure {
+        min-height: 90vw;
+    }
+
+    #topic .wrapper {
+        background-size: 96%;
+        background-position: left 228% top 32vw;
+    }
+
+}
+
+
 
 
 /*************************************************************************************************/
