@@ -67,6 +67,7 @@
 @media screen and (max-width: 650px) {
     #hero .buttons a {
         display: block;
+        margin-right: 0;
     }
 
     #hero a.cover {
@@ -165,7 +166,7 @@
     }
 
     #authors .cols .col img {
-        margin-top: 30px;
+        margin-top: 60px;
     }
 }
 
@@ -248,36 +249,26 @@
 
 }
 
-
+/* <550 */
+@media screen and (max-width: 550px) {
+    #topic .wrapper {
+        background-position: left 228% top 19vw;
+    }
+}
 
 /* <450 */
 @media screen and (max-width: 450px) {
-
-    #topic .cols figure {
-        min-height: 90vw;
-    }
-
     #topic .wrapper {
-        background-size: 96%;
         background-position: left 228% top 25vw;
     }
-
 }
-
 
 
 /* <350 */
 @media screen and (max-width: 350px) {
-
-    #topic .cols figure {
-        min-height: 90vw;
-    }
-
     #topic .wrapper {
-        background-size: 96%;
         background-position: left 228% top 32vw;
     }
-
 }
 
 
@@ -286,6 +277,31 @@
 /*************************************************************************************************/
 /* INFO */
 /*************************************************************************************************/
+
+/* <650 */
+@media screen and (max-width: 650px) {
+    #info .buttons {
+        padding: 0 8%;
+    }
+
+    #info .buttons .button {
+        margin: 10px 0%;
+    }
+
+    #info .buttons a {
+        display: block;
+    }
+}
+
+
+/* <350 */
+@media screen and (max-width: 350px) {
+    #info .buttons .button {
+        white-space: normal;
+    }
+}
+
+
 
 
 /*************************************************************************************************/
