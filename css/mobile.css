@@ -338,6 +338,24 @@
 /* MESSAGE */
 /*************************************************************************************************/
 
+/* <1000 */
+@media screen and (max-width: 1000px) {
+
+    #message form input,
+    #message form textarea {
+        width: 60%;
+        max-width: none;
+    }
+}
+
+/* <650 */
+@media screen and (max-width: 650px) {
+
+    #message form input,
+    #message form textarea {
+        width: 70%;
+    }
+}
 
 
 

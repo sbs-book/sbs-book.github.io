@@ -990,7 +990,7 @@ section h2 {
 }
 
 #message h2 {
-    padding-top: 5px;
+    padding: 5px 10% 0 10%;
     color: #fff;
 }
 
@@ -1025,6 +1025,7 @@ section h2 {
 
 #message input.submit {
     width: 20%;
+    min-width: 100px;
     text-transform: uppercase;
     color: var(--theme-color-4);
     border-radius: 30px;
