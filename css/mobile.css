@@ -39,6 +39,7 @@
         height: 4px;
         margin-bottom: 5px;
         position: relative;
+        top: 3px;
         background: var(--theme-color-4);
         border-radius: 3px;
         z-index: 1;
@@ -112,6 +113,7 @@
         display: block;
         width: 80%;
         margin: 0 auto;
+        padding: 20px;
         font-size: 22px;
     }
 
