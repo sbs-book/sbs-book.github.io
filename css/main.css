@@ -927,6 +927,7 @@ section h2 {
 }
 
 #further ul {
+    padding: 0 5%;
     margin-top: 40px;
     display: flex;
     justify-content: center;

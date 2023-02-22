@@ -308,6 +308,29 @@
 /* FURTHER */
 /*************************************************************************************************/
 
+/* <1000 */
+@media screen and (max-width: 1000px) {
+    #further ul li h3 {}
+}
+
+/* <650 */
+@media screen and (max-width: 650px) {
+    #further .wrapper {
+        padding-bottom: 20px;
+    }
+
+    #further ul {
+        flex-direction: column;
+    }
+
+    #further ul li figure {
+        margin-bottom: 20px;
+    }
+
+    #further ul li {
+        margin-bottom: 40px;
+    }
+}
 
 
 
