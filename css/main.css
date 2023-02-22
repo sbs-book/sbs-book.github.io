@@ -618,6 +618,7 @@ section h2 {
     font-size: 14pt;
     max-width: 700px;
     margin: 10px auto 14px auto;
+    padding: 0 5% 2% 5%;
     text-align: center;
     line-height: 1.38em;
 }
@@ -667,7 +668,8 @@ section h2 {
 }
 
 #authors ul.law {
-    margin-left: 63px;
+    margin-left: 19%;
+    margin-right: 20px;
 }
 
 #authors ul li {
