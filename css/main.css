@@ -624,8 +624,8 @@ section h2 {
 .flickity-page-dots .dot.is-selected {
     /* background: var(--theme-color-4); */
     opacity: 1.0;
-    width: 16px;
-    height: 16px;
+    /* width: 16px; */
+    /* height: 16px; */
     position: relative;
     top: 1px;
 }
