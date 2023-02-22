@@ -196,9 +196,16 @@ header #cambridge {
     align-items: center;
 }
 
-header #cambridge img {
+header #cambridge a {
     height: 25%;
-    margin: 0 5px 0 0;
+    margin: 0 8px 0 0;
+    position: relative;
+    top: -1px;
+}
+
+header #cambridge a img {
+    width: 100%;
+    height: 100%;
 }
 
 header #medicine {
@@ -210,7 +217,11 @@ header #medicine {
     display: flex;
     justify-content: left;
     align-items: center;
-    pointer-events: none;
+    /* pointer-events: none; */
+}
+
+header #medicine a:hover {
+    filter: none;
 }
 
 header #menu {
@@ -464,7 +475,7 @@ section h2 {
     padding: 0 10px;
     text-align: center;
     line-height: 1.4em;
-    font-size: 12pt;
+    font-size: 13pt;
 }
 
 #key-points .col2 {
