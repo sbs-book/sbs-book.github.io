@@ -341,7 +341,7 @@ section h2 {
     flex: 1;
     max-width: 547px;
     padding-left: 70px;
-    padding-right: 20px;
+    padding-right: 28px;
 }
 
 #hero a.cover {
@@ -367,6 +367,7 @@ section h2 {
     font-family: 'DINNeuzeitGroteskStd-Bold';
     font-size: 44pt;
     margin: 18px 0 20px 0;
+    font-weight: 400;
     letter-spacing: .012em;
     overflow-wrap: normal;
     white-space: nowrap;
@@ -417,7 +418,7 @@ section h2 {
 #hero .button {
     text-transform: uppercase;
     font-size: 14pt;
-    padding: 10px 39px;
+    padding: 16px 39px;
     margin-top: 10px;
     margin-right: 26px;
 }
@@ -428,7 +429,8 @@ section h2 {
 }
 
 #hero .button.buy {
-    padding: 16px 44px;
+    padding-left: 44px;
+    padding-right: 44px;
 }
 
 
@@ -690,20 +692,19 @@ section h2 {
 
 #authors ul {
     margin: 20px 0;
+    text-indent: -40px;
 }
 
 #authors ul.medicine {
-    padding-left: 20%;
+    padding-left: 32.5%;
 }
 
 #authors ul.science {
-    padding-left: 23%;
+    padding-left: 34%;
 }
 
 #authors ul.law {
-    padding-left: 31%;
-    /* margin-left: 20px; */
-    /* margin-right: 20px; */
+    padding-left: 42%;
 }
 
 #authors ul li {
