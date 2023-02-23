@@ -25,7 +25,7 @@ You'll find here the latest updates and errata about the book:
 * [**Cyrille Rossant**](https://cyrille.rossant.net/), University College London, UK
 * [**Kana Sasakura**](https://researchers.adm.konan-u.ac.jp/html/90_en.html), Konan University, Japan
 * [**Leila Schneps**](https://en.wikipedia.org/wiki/Leila_Schneps), Sorbonne Université, Paris, France
-* [**Waney Squier**](https://en.wikipedia.org/wiki/Waney_Squier), John Radcliffe Hospital, Oxford, UK
+* [**Waney Squier**](https://en.wikipedia.org/wiki/Waney_Squier), formerly John Radcliffe Hospital, Oxford, UK
 * [**Knut Wester**](https://www.uib.no/en/persons/Knut.Wester), Universitetet i Bergen, Norway
 
 ## Topic
