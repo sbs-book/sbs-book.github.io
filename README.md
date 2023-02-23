@@ -2,11 +2,12 @@
 
 [![](img/SBS_Book_MockUp_01.webp)](https://www.cambridge.org/core/books/shaken-baby-syndrome/67016F1A1F6ED92141A179E9A5D145FB)
 
+The first collaborative, multidisciplinary **academic textbook** to tackle the scientific reliability of medical determinations of **abusive head injuries** in infants, a highly controversial subject at the intersection of medicine, science, and law.
+
 ## Book info
 
 * Publisher: [Cambridge University Press](https://www.cambridge.org/core/books/shaken-baby-syndrome/67016F1A1F6ED92141A179E9A5D145FB)
-* Expected online publication date: March 2023
-* Print publication year: 2023
+* Publication date: April 2023
 * Online ISBN: 9781009177894
 
 ## News
@@ -28,7 +29,41 @@ Coming soon.
 
 ## Table of contents
 
-Coming soon.
+| #   | Author                                       | Chapter                                                                                                                  |
+| --- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+|     | Barry Scheck                                 | Foreword                                                                                                                 |
+| 1   | Chris Brook                                  | Maintaining the Orthodoxy and Silencing Dissent                                                                          |
+| 2   | Randy Papetti                                | The History of SBS                                                                                                       |
+|     |                                              | **MEDICINE**                                                                                                             |
+| 3   | Waney Squier, Tommie Olofsson                | The neuropathology of SBS or retinodural haemorrhage of infancy                                                          |
+| 4   | Julie Mack, Waney Squier                     | The importance of the correlation between radiology and pathology in SBS                                                 |
+| 5   | Knut Wester, Johan Wikström                  | SBS, AHT – or just a type of hydrocephalus?                                                                              |
+| 6   | Knut Wester, Johan Wikström, Joseph Scheller | SBS or benign external hydrocephalus - how is AHT depicted in the scientific literature?                                 |
+| 7   | Marta Cohen                                  | Are some cases of sudden infant death syndrome incorrectly diagnosed as SBS?                                             |
+| 8   | Bernard Echenne                              | AHT: the importance of predisposing factors                                                                              |
+| 9   | Marvin Miller                                | How I Became a SBS Skeptic Paediatrician                                                                                 |
+|     |                                              | **SCIENCE**                                                                                                              |
+| 10  | Niels Lynoe, Anders Eriksson                 | The Swedish systematic literature review on suspected traumatic shaking (SBS) and its aftermath                          |
+| 11  | Deborah Davis, Richard Leo                   | Interrogation and the Infanticide Suspect: Mechanisms of Vulnerability to False Confession                               |
+| 12  | Keith Findley                                | Can confession substitute for science in SBS/AHT?                                                                        |
+| 13  | Jeff Kukucka, Keith Findley                  | Cognitive Bias in Medicolegal Judgments                                                                                  |
+| 14  | Kirk Thibault                                | Biomechanical forensic analysis of shaking and short fall head injury mechanisms in infants and young children           |
+| 15  | Leila Schneps                                | When lack of information leads to apparent paradoxes and wrong conclusions: analysis of a seminal article on short falls |
+| 16  | Ulf Högberg                                  | Epidemiology of findings claimed to be highly specific for SBS/AHT, a prerequisite to improve diagnosis of child abuse   |
+| 17  | Norman Fenton, Scott McLachlan               | SBS: Exploring concerns about the ‘triad’ diagnosis and its statistical validation using a causal Bayesian Network       |
+|     |                                              | **LAW**                                                                                                                  |
+| 18  | Felicity Goodyear-Smith                      | Mandatory reporting of child maltreatment                                                                                |
+| 19  | Kathleen Pakes                               | SBS/AHT Opinion Evidence in U.S. Courts                                                                                  |
+| 20  | Keith Findley                                | Undoing Wrongful Convictions: Exonerating the Innocent in SBS/AHT Cases                                                  |
+|     |                                              | **INTERNATIONAL**                                                                                                        |
+| 21  | Clive Stafford Smith                         | Ptolemy rather than Copernicus — The State of SBS In the British Legal System                                            |
+| 22  | Cyrille Rossant, Grégoire Etrillard          | SBS in France                                                                                                            |
+| 23  | Ulf Högberg, Goran Högberg                   | Sweden and SBS/AHT                                                                                                       |
+| 24  | Kana Sasakura                                | SBS/AHT in Japan                                                                                                         |
+| 25  | Chris Brook, Michael Nott                    | SBS in Australia                                                                                                         |
+| 26  | Multiple authors                             | SBS around the world                                                                                                     |
+
+
 
 ## Errata
 
