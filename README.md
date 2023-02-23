@@ -12,20 +12,24 @@ The first collaborative, multidisciplinary **academic textbook** to tackle the s
 
 ## News
 
-- 2023/02/19: initial README
+- 2023-02-19: initial README
 
 ## Co-editors
 
-* **Keith A. Findley**, University of Wisconsin, Madison, US
-* **Cyrille Rossant**, University College London, UK
-* **Kana Sasakura**, Konan University, Japan
-* **Leila Schneps**, Sorbonne Université, Paris, France
-* **Waney Squier**, John Radcliffe Hospital, Oxford, UK
-* **Knut Wester**, Universitetet i Bergen, Norway
+* [**Keith A. Findley**](https://secure.law.wisc.edu/profiles/kafindle), University of Wisconsin, Madison, US
+* [**Cyrille Rossant**](https://cyrille.rossant.net/), University College London, UK
+* [**Kana Sasakura**](https://researchers.adm.konan-u.ac.jp/html/90_en.html), Konan University, Japan
+* [**Leila Schneps**](https://en.wikipedia.org/wiki/Leila_Schneps), Sorbonne Université, Paris, France
+* [**Waney Squier**](https://en.wikipedia.org/wiki/Waney_Squier), John Radcliffe Hospital, Oxford, UK
+* [**Knut Wester**](https://www.uib.no/en/persons/Knut.Wester), Universitetet i Bergen, Norway
 
 ## Topic
 
-Coming soon.
+**Shaken Baby Syndrome (SBS)**, also known as **Abusive Head Trauma (AHT)**, refers not only to abusive acts where head injuries are inflicted to young children, but also to a **controversial medical hypothesis**: that certain findings found in infants (blood around the brain and at the back of the eyes) are almost always caused by violent trauma.
+
+For the past decades, a growing body of scientific studies in **neuropathology, neurology, biomechanics, statistics, and psychology** has cast doubt on the validity of this idea. It is now known that the same findings may be caused by accidental short falls and a wide range of medical conditions. Nevertheless, mischaracterized determinations of child abuse and **wrongful convictions** continue to this day.
+
+Bringing together contributions from a **multidisciplinary expert panel** of 32 world-leading professionals, this landmark book explains the scientific evidence challenging automatic determinations of SBS/AHT and advances efforts to evaluate how deaths and serious brain injuries in infants should be analysed and investigated.
 
 ## Table of contents
 
