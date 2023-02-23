@@ -925,12 +925,12 @@ section h2 {
     margin-right: 30px;
 }
 
-#info .button.download {
+#info .button.updates {
     background-color: var(--theme-color-2);
     color: var(--theme-color-4);
 }
 
-#info .button.download:hover {
+#info .button.updates:hover {
     filter: brightness(105%);
 }
 

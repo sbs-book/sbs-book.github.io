@@ -15,6 +15,8 @@ The first collaborative, multidisciplinary **academic textbook** to tackle the s
 
 ## News
 
+You'll find here the latest updates and errata about the book:
+
 - 2023-02-19: initial README
 
 ## Co-editors
@@ -78,4 +80,4 @@ N/A
 
 ## References
 
-* Many references can be found on [Cyrille Rossant's introduction to the SBS/AHT controversy](https://cyrille.rossant.net/introduction-shaken-baby-syndrome-controversy/#sec-biblio).
+* Many references can be found on [Cyrille Rossant's introduction to the SBS/AHT controversy](https://cyrille.rossant.net/introduction-shaken-baby-syndrome-controversy/).
