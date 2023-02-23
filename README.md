@@ -1,6 +1,6 @@
 # Shaken Baby Syndrome: Investigating the Abusive Head Trauma Controversy
 
-[![](img/SBS_Book_MockUp_01.webp)](https://www.cambridge.org/core/books/shaken-baby-syndrome/67016F1A1F6ED92141A179E9A5D145FB)
+[![](img/SBS_Book_MockUp_01.webp)](http://shakenbaby.science/)
 
 The first collaborative, multidisciplinary **academic textbook** to tackle the scientific reliability of medical determinations of **abusive head injuries** in infants, a highly controversial subject at the intersection of medicine, science, and law.
 
@@ -9,6 +9,9 @@ The first collaborative, multidisciplinary **academic textbook** to tackle the s
 * Publisher: [Cambridge University Press](https://www.cambridge.org/core/books/shaken-baby-syndrome/67016F1A1F6ED92141A179E9A5D145FB)
 * Publication date: April 2023
 * Online ISBN: 9781009177894
+* [Get the book on **Cambridge University Press**](https://www.cambridge.org/core/books/shaken-baby-syndrome/67016F1A1F6ED92141A179E9A5D145FB) (available in April 2023)
+* [Get the book on **Amazon UK**](https://www.amazon.co.uk/Shaken-Baby-Syndrome-Investigating-Controversy/dp/1009177885/) (available in April 2023)
+* [Get the book on **Amazon US**](https://www.amazon.com/Shaken-Baby-Syndrome-Investigating-Controversy/dp/1009384767) (available in April 2023)
 
 ## News
 
