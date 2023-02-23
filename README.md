@@ -30,7 +30,7 @@ You'll find here the latest updates and errata about the book:
 
 ## Topic
 
-**Shaken Baby Syndrome (SBS)**, also known as **Abusive Head Trauma (AHT)**, refers not only to abusive acts where head injuries are inflicted to young children, but also to a **controversial medical hypothesis**: that certain findings found in infants (blood around the brain and at the back of the eyes) are almost always caused by violent trauma.
+**Shaken Baby Syndrome (SBS)**, also known as **Abusive Head Trauma (AHT)**, refers not only to abusive acts where head injuries are inflicted to young children, but also to a **controversial medical hypothesis**: that certain findings found in infants (blood around the brain and at the back of the eyes) are almost always caused by abusive shaking.
 
 For the past decades, a growing body of scientific studies in **neuropathology, neurology, biomechanics, statistics, and psychology** has cast doubt on the validity of this idea. It is now known that the same findings may be caused by accidental short falls and a wide range of medical conditions. Nevertheless, mischaracterized determinations of child abuse and **wrongful convictions** continue to this day.
 
