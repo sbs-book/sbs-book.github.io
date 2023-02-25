@@ -132,18 +132,38 @@ a.anchor {
 /*************************************************************************************************/
 
 .button {
-    background-color: var(--theme-color-4);
     padding: 10px 32px;
     font-size: 11pt;
-    color: white;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
     white-space: nowrap;
 }
 
+/* LIGHT DEACTIVATED */
+.button {
+    background-color: var(--theme-color-4);
+    color: white;
+}
+
+/* LIGHT ACTIVATED */
 .button:hover {
-    filter: brightness(125%);
+    background-color: white;
+    color: var(--theme-color-4);
+}
+
+/* DARK DEACTIVATED */
+.button.dark {
+    background-color: var(--theme-color-2);
+    color: var(--theme-color-4);
+    font-weight: normal;
+}
+
+/* DARK ACTIVATED */
+.button.dark:hover {
+    background-color: var(--theme-color-2);
+    color: var(--theme-color-4);
+    font-weight: bold;
 }
 
 .button:active {
@@ -225,10 +245,6 @@ header #medicine {
     /* pointer-events: none; */
 }
 
-header #medicine a:hover {
-    filter: none;
-}
-
 header #menu {
     color: var(--theme-color-4);
     flex: 1;
@@ -255,12 +271,12 @@ header #menu ul li {
 }
 
 header #menu ul li a:hover {
-    filter: brightness(125%);
+    /* filter: brightness(125%); */
 }
 
 header #menu .button {
     padding: 11px 29px;
-    background-color: var(--theme-color-4);
+    /* background-color: var(--theme-color-4); */
     position: relative;
     top: 1px;
 }
@@ -344,7 +360,7 @@ section h2 {
     padding-right: 28px;
 }
 
-#hero a.cover {
+#hero .cover {
     display: block;
     flex: 1.75;
     margin: 0;
@@ -355,10 +371,6 @@ section h2 {
     background-repeat: no-repeat;
     background-position: right -10% top 68%;
     background-size: 126%;
-}
-
-#hero a.cover:hover {
-    filter: brightness(103%);
 }
 
 #hero h1 {
@@ -423,10 +435,10 @@ section h2 {
     margin-right: 26px;
 }
 
-#hero .button.learn {
+/* #hero .button.learn {
     background-color: white;
     color: var(--theme-color-4);
-}
+} */
 
 #hero .button.buy {
     padding-left: 44px;
@@ -920,19 +932,19 @@ section h2 {
 }
 
 #info .button.contents {
-    background-color: var(--theme-color-4);
-    color: white;
+    /* background-color: var(--theme-color-4);
+    color: white; */
     margin-right: 30px;
 }
 
 #info .button.updates {
-    background-color: var(--theme-color-2);
-    color: var(--theme-color-4);
+    /* background-color: var(--theme-color-2);
+    color: var(--theme-color-4); */
 }
 
-#info .button.updates:hover {
-    filter: brightness(105%);
-}
+/* #info .button.updates:hover { */
+/* filter: brightness(105%); */
+/* } */
 
 
 
@@ -1058,15 +1070,17 @@ section h2 {
     width: 20%;
     min-width: 200px;
     text-transform: uppercase;
-    background-color: #fff;
+    background-color: var(--theme-color-2);
     color: var(--theme-color-4);
     border-radius: 30px;
     padding: 16px;
     cursor: pointer;
+    font-weight: normal;
 }
 
 #message input.submit:hover {
-    filter: brightness(125%);
+    /* filter: brightness(125%); */
+    font-weight: bold;
 }
 
 #message input.submit:active {
