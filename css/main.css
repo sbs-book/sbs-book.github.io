@@ -1115,6 +1115,10 @@ section h2 {
     overflow-wrap: break-word;
 }
 
+#mail h2 span {
+    white-space: nowrap;
+}
+
 #mail a {
     color: var(--theme-color-4);
 }
