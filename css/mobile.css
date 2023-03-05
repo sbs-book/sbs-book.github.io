@@ -6,7 +6,7 @@
 @media screen and (max-width: 1000px) {
 
     header #menu {
-        justify-content: right;
+        justify-content: flex-end;
         align-items: center;
     }
 
