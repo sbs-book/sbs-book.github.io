@@ -562,8 +562,8 @@ section h2 {
 
 #editors figure {
     width: 155px;
+    height: 155px;
     margin: 10px auto 22px auto;
-    aspect-ratio: 1;
     border: 7px solid var(--theme-color-1);
     border-radius: 100%;
     background-repeat: no-repeat;
