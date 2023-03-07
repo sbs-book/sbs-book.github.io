@@ -505,6 +505,11 @@
     #mail h2 {
         font-size: 24pt;
     }
+
+    #mail a span {
+        font-size: 24pt;
+    }
+
 }
 
 

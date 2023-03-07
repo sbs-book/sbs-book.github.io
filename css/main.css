@@ -1125,16 +1125,24 @@ section h2 {
     font-size: 30pt;
     max-width: 70%;
     margin: 14px auto;
-    line-height: 1.25em;
+    /* line-height: 1.25em; */
     overflow-wrap: break-word;
 }
 
-#mail h2 span {
+#mail h2>span {
     white-space: nowrap;
 }
 
 #mail a {
+    display: block;
+    /* HACK: fix on Safari, no nice word break between the parts of the email otherwise */
+    font-size: 0;
     color: var(--theme-color-4);
+}
+
+#mail a span {
+    font-size: 30pt;
+    white-space: nowrap;
 }
 
 
