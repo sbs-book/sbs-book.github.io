@@ -138,7 +138,7 @@
 
 /* 1050 - 1170 */
 @media screen and (min-width: 1050px) and (max-width: 1170px) {
-    #hero a.cover {
+    #hero .cover {
         background-position: right 30% top 68%;
         background-size: 139%;
     }
@@ -146,7 +146,7 @@
 
 /* 1000 - 1050 */
 @media screen and (min-width: 1000px) and (max-width: 1050px) {
-    #hero a.cover {
+    #hero .cover {
         background-position: right 44% top 93%;
         background-size: 146%;
     }
@@ -182,7 +182,7 @@
         padding: 0 8% 20px 8%;
     }
 
-    #hero a.cover {
+    #hero .cover {
         flex: 1;
         background-size: contain;
         background-position-x: center;
@@ -204,7 +204,7 @@
         margin-right: 0;
     }
 
-    #hero a.cover {
+    #hero .cover {
         background-size: cover;
         min-height: 620px;
         top: -40px;
