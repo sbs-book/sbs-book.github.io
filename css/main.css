@@ -371,12 +371,12 @@ section h2 {
     background-position: right -10% top 68%;
     background-size: 126%;
 
-    background-image: url('../img/SBS_Book_MockUp_01s.png');
+    background-image: url('../img/SBS_Book_MockUp_01.webp'), url('../img/SBS_Book_MockUp_01s.png');
 
     /* Fallback for iOS Safari <= 13 */
-    @supports (background-image: url('../img/SBS_Book_MockUp_01.webp')) {
+    /* @supports (background-image: url('../img/SBS_Book_MockUp_01.webp')) {
         background-image: url('../img/SBS_Book_MockUp_01.webp');
-    }
+    } */
 }
 
 
@@ -858,12 +858,12 @@ section h2 {
     background-position: left 13% top 80px;
     background-size: 50%;
 
-    background-image: url('../img/SBS_Book_MockUp_02s.png');
+    background-image: url('../img/SBS_Book_MockUp_02.webp'), url('../img/SBS_Book_MockUp_02s.png');
 
     /* Fallback for iOS Safari <= 13 */
-    @supports (background-image: url('../img/SBS_Book_MockUp_02.webp')) {
+    /* @supports (background-image: url('../img/SBS_Book_MockUp_02.webp')) {
         background-image: url('../img/SBS_Book_MockUp_02.webp');
-    }
+    } */
 }
 
 #topic .cols {
