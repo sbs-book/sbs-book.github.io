@@ -1044,6 +1044,7 @@ section h2 {
 
 #message .wrapper {
     /* padding-bottom: 28px; */
+    display: block;
 }
 
 #message h2 {
@@ -1101,6 +1102,14 @@ section h2 {
     position: relative;
     top: 1px;
     left: 1px;
+}
+
+#message #inline-badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: collapse;
+    margin-bottom: -50px;
 }
 
 
