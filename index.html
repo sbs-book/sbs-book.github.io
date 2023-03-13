@@ -12,6 +12,11 @@
     <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date()); gtag('config', 'G-44QDYP10N1', { cookie_flags: 'max-age=7200;secure; samesite=none' });
     </script>
+
+    <!-- GOOGLE reCAPTCHA v3 -->
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfmmvgkAAAAAE5ci2NyakSMS-afL-tekveHQrgn"></script>
+
+
     <script src="js/main.js"></script>
 
     <link rel="stylesheet" href="css/flickity.min.css">
@@ -422,6 +427,7 @@
                     <input name="email" class="email" type="email" placeholder="E-mail address" required="required">
                     <textarea name="message" class="message" placeholder="Text Message" required="required"></textarea>
                     <input type="hidden" name="_gotcha" style="display:none !important">
+                    <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
                     <input type="submit" value="send" class="submit">
                 </form>
             </div>
@@ -457,6 +463,14 @@
     </footer>
 
     <script src="js/flickity.pkgd.min.js"></script>
+    <script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LfmmvgkAAAAAE5ci2NyakSMS-afL-tekveHQrgn', { action: 'homepage' })
+                .then(function (token) {
+                    document.getElementById('captchaResponse').value = token;
+                });
+        });
+    </script>
     <script type="text/javascript">var sc_project = 12850801; var sc_invisible = 1; var sc_security = "9dd4a4d2";</script>
     <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
 </body>
