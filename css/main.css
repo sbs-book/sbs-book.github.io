@@ -1198,3 +1198,7 @@ footer .privacy a {
 footer .privacy a.col4 {
     border: 0;
 }
+
+#termly-code-snippet-support button {
+    background-color: var(--theme-color-4) !important;
+}
