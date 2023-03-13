@@ -1199,7 +1199,12 @@ footer .privacy a.col4 {
     border: 0;
 }
 
+
+
+/* TERMLY COOKIE BANNER */
+
 #termly-code-snippet-support button:nth-child(2),
 #termly-code-snippet-support button:nth-child(3) {
     background-color: var(--theme-color-4) !important;
+    border-color: rgb(48, 48, 48) !important;
 }
