@@ -1,0 +1,23 @@
+/* https://stackoverflow.com/a/44908040/1595060 */
+* {
+    -webkit-print-color-adjust: exact !important;
+    /* Chrome, Safari 6 – 15.3, Edge */
+    color-adjust: exact !important;
+    /* Firefox 48 – 96 */
+    print-color-adjust: exact !important;
+    /* Firefox 97+, Safari 15.4+ */
+}
+
+@media print {
+    header {
+        display: none;
+    }
+
+    #hero .text .text-wrapper {
+        max-width: 425px;
+    }
+
+    #termly-code-snippet-support {
+        display: none;
+    }
+}

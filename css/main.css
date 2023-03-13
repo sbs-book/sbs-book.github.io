@@ -251,6 +251,10 @@ header #medicine a {
     padding: 8px 0 4px 0;
 }
 
+header #medicine a:hover {
+    filter: none;
+}
+
 header #menu {
     color: var(--theme-color-4);
     flex: 1;
