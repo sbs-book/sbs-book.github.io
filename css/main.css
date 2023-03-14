@@ -200,7 +200,7 @@ header .wrap-left {
 
 header .wrap-center {
     background: var(--theme-color-1);
-    flex: 0 1 1024px;
+    flex: 0 1 1000px;
     display: flex;
 }
 
@@ -211,7 +211,7 @@ header .wrap-right {
 
 header #cambridge {
     background-color: var(--theme-color-4);
-    flex: 0 0 147px;
+    flex: 0 0 94px;
     height: 100%;
     margin: 0;
     text-align: right;
@@ -225,7 +225,7 @@ header #cambridge a {
     font-family: 'DINNeuzeitGroteskStd-Bold';
     font-size: 15pt;
     color: #fff;
-    width: 92px;
+    width: 76px;
     line-height: .95em;
     padding: 8px 10px 4px 0;
 }
