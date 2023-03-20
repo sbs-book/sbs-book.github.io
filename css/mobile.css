@@ -136,19 +136,11 @@
 /* HERO */
 /*************************************************************************************************/
 
-/* 1050 - 1170 */
-@media screen and (min-width: 1050px) and (max-width: 1170px) {
+/* 1200 */
+@media screen and (max-width: 1200px) {
     #hero .cover {
-        background-position: right 30% top 68%;
-        background-size: 139%;
-    }
-}
-
-/* 1000 - 1050 */
-@media screen and (min-width: 1000px) and (max-width: 1050px) {
-    #hero .cover {
-        background-position: right 44% top 93%;
-        background-size: 146%;
+        background-size: 650px;
+        background-position: left calc(60% - 10px) top -60px;
     }
 }
 
@@ -205,8 +197,8 @@
     }
 
     #hero .cover {
-        background-size: cover;
-        min-height: 620px;
+        background-size: min(130%, 600px);
+        min-height: min(130vw, 600px);
         top: -40px;
     }
 }

@@ -378,8 +378,12 @@ section h2 {
     height: 100%;
     min-height: 586px;
     background-repeat: no-repeat;
-    background-position: right -10% top 68%;
+    /*
     background-size: 126%;
+    background-position: right -10% top 68%; */
+
+    background-size: 650px;
+    background-position: left calc(50% - 80px) top -60px;
 
     background-image: url('../img/SBS_Book_MockUp_01.webp'), url('../img/SBS_Book_MockUp_01s.png');
 
