@@ -136,19 +136,11 @@
 /* HERO */
 /*************************************************************************************************/
 
-/* 1050 - 1170 */
-@media screen and (min-width: 1050px) and (max-width: 1170px) {
+/* 1200 */
+@media screen and (max-width: 1200px) {
     #hero .cover {
-        background-position: right 30% top 68%;
-        background-size: 139%;
-    }
-}
-
-/* 1000 - 1050 */
-@media screen and (min-width: 1000px) and (max-width: 1050px) {
-    #hero .cover {
-        background-position: right 44% top 93%;
-        background-size: 146%;
+        background-size: 650px;
+        background-position: left calc(60% - 10px) top -60px;
     }
 }
 
@@ -205,8 +197,8 @@
     }
 
     #hero .cover {
-        background-size: cover;
-        min-height: 620px;
+        background-size: min(130%, 600px);
+        min-height: min(130vw, 600px);
         top: -40px;
     }
 }
@@ -353,61 +345,54 @@
 /* TOPIC */
 /*************************************************************************************************/
 
-/* <1000 */
-@media screen and (max-width: 1000px) {
-
+/* <1200 */
+@media screen and (max-width: 1200px) {
     #topic .wrapper {
-        /* max-width: 100%; */
-        background-size: 50%;
-        background-position: left 13% top 100px;
+        background-size: 58%;
+        background-position-x: 7%;
     }
 }
 
-
-/* <650 */
-@media screen and (max-width: 650px) {
+/* <1000 */
+@media screen and (max-width: 1000px) {
 
     #topic .cols {
         flex-direction: column;
     }
 
+    #topic .wrapper {
+        background-size: 500px;
+        background-position: center 100px;
+    }
+
     #topic .cols figure {
-        min-height: 90vw;
+        min-height: 450px;
     }
 
     #topic .cols .text-wrapper {
         max-width: max-content;
     }
 
-    #topic .wrapper {
-        background-size: 96%;
-        background-position: left 228% top 18vw;
-    }
-
 }
 
-/* <550 */
-@media screen and (max-width: 550px) {
+/* <650 */
+@media screen and (max-width: 650px) {
     #topic .wrapper {
-        background-position: left 228% top 19vw;
+        background-size: min(100%, 500px);
+        background-position-x: 80px;
     }
-}
 
-/* <450 */
-@media screen and (max-width: 450px) {
-    #topic .wrapper {
-        background-position: left 228% top 25vw;
+    #topic .cols figure {
+        min-height: min(90vw, 450px);
     }
 }
 
-
-/* <350 */
-@media screen and (max-width: 350px) {
+/* <500 */
+@media screen and (max-width: 500px) {
     #topic .wrapper {
-        background-position: left 228% top 32vw;
+        background-position-x: 30px;
     }
 }
-
 
 
 
@@ -524,9 +509,10 @@
         margin-bottom: 40px;
     }
 
-    footer p.privacy a {
+    footer .privacy a {
         display: block;
         border: 0;
         margin: 20px 0;
+        /* padding: 20px 0; */
     }
 }

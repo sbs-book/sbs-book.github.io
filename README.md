@@ -30,11 +30,9 @@ You'll find here the latest updates and errata about the book:
 
 ## Topic
 
-**Shaken Baby Syndrome (SBS)**, also known as **Abusive Head Trauma (AHT)**, refers not only to abusive acts where head injuries are inflicted to young children, but also to a **controversial medical hypothesis**: that certain findings found in infants (blood around the brain and at the back of the eyes) are almost always caused by abusive shaking.
+For the past decades, a growing body of scientific studies in neuropathology, neurology, biomechanics, statistics, and psychology has cast doubt on the forensic reliability of medical determinations of Shaken Baby Syndrome (SBS), also known as Abusive Head Trauma (AHT). Studies have increasingly documented that the same findings are caused not only by non-accidental trauma, but also by accidental short falls and a wide range of medical conditions. Nevertheless, inaccurate diagnoses, unrealistic confidence expression, and wrongful convictions continue to this day.
 
-For the past decades, a growing body of scientific studies in **neuropathology, neurology, biomechanics, statistics, and psychology** has cast doubt on the validity of this idea. It is now known that the same findings may be caused by accidental short falls and a wide range of medical conditions. Nevertheless, mischaracterized determinations of child abuse and **wrongful convictions** continue to this day.
-
-Bringing together contributions from a **multidisciplinary expert panel** of 32 world-leading professionals, this landmark book explains the scientific evidence challenging automatic determinations of SBS/AHT and advances efforts to evaluate how deaths and serious brain injuries in infants should be analysed and investigated.
+Bringing together contributions from a multidisciplinary expert panel of 32 world-leading professionals, this landmark book explains the scientific evidence challenging the reliability of determinations of SBS/AHT and advances efforts to evaluate how deaths and serious brain injuries in infants should be analysed and investigated.
 
 ## Table of contents
 

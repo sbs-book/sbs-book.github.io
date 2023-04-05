@@ -378,8 +378,12 @@ section h2 {
     height: 100%;
     min-height: 586px;
     background-repeat: no-repeat;
-    background-position: right -10% top 68%;
+    /*
     background-size: 126%;
+    background-position: right -10% top 68%; */
+
+    background-size: 650px;
+    background-position: left calc(50% - 80px) top -60px;
 
     background-image: url('../img/SBS_Book_MockUp_01.webp'), url('../img/SBS_Book_MockUp_01s.png');
 
@@ -865,8 +869,8 @@ section h2 {
     color: var(--theme-color-4);
 
     background-repeat: no-repeat;
-    background-position: left 13% top 80px;
-    background-size: 50%;
+    background-size: 700px;
+    background-position: left calc(50% - 220px) top 80px;
 
     background-image: url('../img/SBS_Book_MockUp_02.webp'), url('../img/SBS_Book_MockUp_02s.png');
 
@@ -887,7 +891,7 @@ section h2 {
     margin: 0;
     width: 100%;
     height: 100%;
-    min-height: 688px;
+    min-height: 600px;
 }
 
 #topic .cols .text {
@@ -902,8 +906,8 @@ section h2 {
 #topic .cols .text-wrapper {
     flex: 1;
     max-width: 400px;
-    padding-left: 10px;
-    padding-right: 20px;
+    padding: 0 40px;
+    /* padding-right: 20px; */
 }
 
 #topic .cols .text-wrapper p {
@@ -1196,6 +1200,7 @@ footer .privacy {
     font-size: 16pt;
     margin-top: 0;
     text-transform: uppercase;
+    line-height: 1.5em;
 }
 
 footer .privacy a {
