@@ -759,6 +759,11 @@ section h2 {
     top: -2px;
 }
 
+#authors ul li .discipline {
+    font-size: .9em;
+    color: var(--theme-color-3);
+}
+
 #authors i.country-au {
     background-image: url("../img/SBS_Authors_Country-AU.png");
 }
