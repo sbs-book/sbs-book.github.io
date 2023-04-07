@@ -7,7 +7,7 @@ The first collaborative, multidisciplinary **academic textbook** to tackle the s
 ## Book info
 
 * Publisher: [Cambridge University Press](https://www.cambridge.org/core/books/shaken-baby-syndrome/67016F1A1F6ED92141A179E9A5D145FB)
-* Publication date: April 2023
+* Publication date: May 2023
 * Online ISBN: 9781009177894
 
 ### Preorder
@@ -42,9 +42,9 @@ You'll find here the latest updates and errata about the book:
 
 ## Topic
 
-For the past decades, a growing body of scientific studies in neuropathology, neurology, biomechanics, statistics, and psychology has cast doubt on the forensic reliability of medical determinations of Shaken Baby Syndrome (SBS), also known as Abusive Head Trauma (AHT). Studies have increasingly documented that the same findings are caused not only by non-accidental trauma, but also by accidental short falls and a wide range of medical conditions. Nevertheless, inaccurate diagnoses, unrealistic confidence expression, and wrongful convictions continue to this day.
+For the past decades, a growing body of scientific studies in **neuropathology, neurology, biomechanics, statistics, and psychology** has cast doubt on the forensic reliability of medical determinations of **Shaken Baby Syndrome (SBS)**, also known as **Abusive Head Trauma (AHT)**. Studies have increasingly documented that the same findings are caused not only by non-accidental trauma, but also by accidental short falls and a wide range of medical conditions. Nevertheless, inaccurate diagnoses, unrealistic confidence expression, and **wrongful convictions** continue to this day.
 
-Bringing together contributions from a multidisciplinary expert panel of 32 world-leading professionals, this landmark book explains the scientific evidence challenging the reliability of determinations of SBS/AHT and advances efforts to evaluate how deaths and serious brain injuries in infants should be analysed and investigated.
+Bringing together contributions from a **multidisciplinary expert panel** of 32 world-leading professionals, this landmark book explains the scientific evidence challenging the reliability of determinations of SBS/AHT and advances efforts to evaluate how deaths and serious brain injuries in infants should be analysed and investigated.
 
 ## Table of contents
 
@@ -84,10 +84,85 @@ Bringing together contributions from a multidisciplinary expert panel of 32 worl
 
 
 
+## Further information, references
+
+The book contains hundreds of references. You'll find a small selection of references below. Many more can be found on [Cyrille Rossant's introduction to the SBS/AHT controversy](https://cyrille.rossant.net/introduction-shaken-baby-syndrome-controversy/).
+
+### Articles
+
+* [**Zahl et al., 2021.** Thrombosis is not a marker of bridging vein rupture in infants with alleged abusive head trauma](https://onlinelibrary.wiley.com/doi/full/10.1111/apa.15908)
+
+* [**Narang et al., 2020.** Abusive Head Trauma in Infants and Children](https://publications.aap.org/pediatrics/article/145/4/e20200203/36936/Abusive-Head-Trauma-in-Infants-and-Children)
+
+* [**Papetti, 2019.** Outside the Echo Chamber: A Response to the Consensus Statement on Abusive Head Trauma in Infants and Young Children](https://heinonline.org/HOL/Page?collection=journals&handle=hein.journals/saclr59&id=299&men_tab=srchresults)
+
+* [**Findley et al., 2019.** Feigned consensus: usurping the law in shaken baby syndrome/abusive head trauma prosecutions](https://heinonline.org/hol-cgi-bin/get_pdf.cgi?handle=hein.journals/wlr2019&section=41)
+
+* [**Choudhary et al., 2018.** Consensus statement on abusive head trauma in infants and young children](https://link.springer.com/article/10.1007/s00247-018-4149-1)
+
+* [**Lynøe et al., 2017.** Insufficient evidence for 'shaken baby syndrome'—a systematic review](https://onlinelibrary.wiley.com/doi/abs/10.1111/apa.13760)
+
+* [**SBU, 2016.** Traumatic shaking – The role of the triad in medical investigations of suspected traumatic shaking](https://www.sbu.se/en/publications/sbu-assesses/traumatic-shaking--the-role-of-the-triad-in-medical-investigations-of-suspected-traumatic-shaking/)
+
+* [**Squier et al., 2016**. Infants dying suddenly and unexpectedly share demographic features with infants who die with retinal and dural bleeding: a review of neural mechanisms](https://onlinelibrary.wiley.com/doi/full/10.1111/dmcn.13202)
+
+* [**Ontario Ministry of the Attorney General, 2011.** Committee Report To The Attorney General: Shaken Baby Death Review](https://wayback.archive-it.org/16312/20210402060719/http://www.attorneygeneral.jus.gov.on.ca/english/about/pubs/sbdrt/sbdrt.html)
+
+* [**Guthkelch, 2012.** Problems of Infant Retino-Dural Hemorrhage with Minimal External Injury](https://heinonline.org/HOL/Page?handle=hein.journals/hhpol12&div=14&g_sent=1&collection=journals)
+
+* [**Squier, 2011.** The "Shaken Baby" syndrome: pathology and mechanisms](https://link.springer.com/article/10.1007/s00401-011-0875-2)
+
+* [and more...](https://cyrille.rossant.net/introduction-shaken-baby-syndrome-controversy/#sec-academic)
+
+
+### Books
+
+* [**Papetti, 2018.** The Forensic Unreliability of the Shaken Baby Syndrome](https://www.sbsbook.com/)
+
+* [**Tuerkheimer, 2014.** Flawed Convictions: "Shaken Baby Syndrome" and the Inertia of Injustice](https://global.oup.com/academic/product/flawed-convictions-9780190233617)
+
+* [**Palusci, Lazoritz, 2001.** The Shaken Baby Syndrome: A Multidisciplinary Approach](https://www.routledge.com/The-Shaken-Baby-Syndrome-A-Multidisciplinary-Approach/Palusci-Lazoritz/p/book/9780429235979)
+
+* [and more...](https://cyrille.rossant.net/introduction-shaken-baby-syndrome-controversy/#sec-books)
+
+
+### Video
+
+* [**TEDxWandsworth, Waney Squier, 2016.** I believed in Shaken Baby Syndrome until science showed I was wrong](https://www.ted.com/talks/waney_squier_i_believed_in_shaken_baby_syndrome_until_science_showed_i_was_wrong)
+
+* [**TEDxButler, Jessica Henry, 2021** No-Crime Wrongful Convictions](https://www.youtube.com/watch?v=f42eXvvxK9g)
+
+* [**Retro report, 2015.** The Nanny Murder Case: Shaken Baby Syndrome on Trial](https://www.retroreport.org/video/a-syndrome-on-trial/)
+
+* [**Interview with Norman Guthkelch, 2015**](https://www.retroreport.org/video/mini-doc/the-doctor/)
+
+* [and more...](https://cyrille.rossant.net/introduction-shaken-baby-syndrome-controversy/#sec-films)
+
+
+### Press investigations
+
+* [**The Appeal, 2022.** A Judge Finally Called Bs On ‘Shaken Baby Syndrome'](https://theappeal.org/new-jersey-shaken-baby-syndrome-bs/)
+
+* [**The Appeal, 2020.** How Dubious Science Helped Put A New Jersey Woman In Prison For Killing A Baby In Her Care](https://theappeal.org/new-jersey-woman-prison-shaken-baby-syndrome/)
+
+* [**The Guardian, 2017.** ‘We believe you harmed your child': the war over shaken baby convictions](https://www.theguardian.com/news/2017/dec/08/shaken-baby-syndrome-war-over-convictions)
+
+* [**New Scientist, 2016.** Evidence of 'shaken baby' questioned by controversial study](https://www.newscientist.com/article/mg23230994-100-evidence-of-shaken-baby-questioned-by-controversial-study/)
+
+* [**New York Times, 2015.** Shaken Baby Syndrome: A Diagnosis That Divides the Medical World](https://www.nytimes.com/2015/09/14/us/shaken-baby-syndrome-a-diagnosis-that-divides-the-medical-world.html)
+
+* [**Washington Post, 2015.** A disputed diagnosis imprisons parents](https://www.washingtonpost.com/graphics/investigations/shaken-baby-syndrome/)
+
+* [and more...](https://cyrille.rossant.net/introduction-shaken-baby-syndrome-controversy/#sec-press)
+
+
+### Blog
+
+* [**Rossant, 2022.** An Introduction to the Scientific Controversy over Shaken Baby Syndrome](https://cyrille.rossant.net/introduction-shaken-baby-syndrome-controversy/)
+
+
+
+
 ## Errata
 
 N/A
-
-## References
-
-* Many references can be found on [Cyrille Rossant's introduction to the SBS/AHT controversy](https://cyrille.rossant.net/introduction-shaken-baby-syndrome-controversy/).
