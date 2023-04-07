@@ -19,7 +19,7 @@ section {
 
 section a {
     color: var(--theme-color-2);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 section a:hover {
@@ -31,7 +31,7 @@ section .wrapper {
 }
 
 section .title {
-    max-width: 700px;
+    /* max-width: 700px; */
     margin: 0 auto 35px auto;
 }
 
@@ -55,6 +55,40 @@ section p {
     color: var(--theme-color-2);
     line-height: 1.4em;
     font-size: 13pt;
+}
+
+section ul {
+    padding: 0;
+}
+
+section ul li {
+    list-style: none;
+}
+
+section ul li {
+    position: relative;
+    padding: 0 10px;
+}
+
+section ul li::before,
+section ul li::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+section ul li::before {
+    left: -17px;
+    border-width: 7px;
+    border-left-color: var(--theme-color-1);
+}
+
+section ul li::after {
+    left: -18px;
+    border-width: 8px;
+    border-left-color: var(--theme-color-1);
 }
 
 
@@ -88,12 +122,19 @@ section p {
 
 
 
-#contents table thead {
-    display: none;
+#contents .wrapper {
+    padding: 40px 0;
+    max-width: calc(700px + 5%);
 }
 
-#contents table tr {
-    height: 45px;
+#contents table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: .8em;
+}
+
+#contents table thead {
+    display: none;
 }
 
 #contents table td {
@@ -104,7 +145,6 @@ section p {
 
 #contents table td:first-of-type {
     color: var(--theme-color-3);
-    width: 30px;
 }
 
 #contents table td:nth-of-type(2) {
@@ -112,8 +152,8 @@ section p {
     font-weight: 500;
 }
 
-#contents table tr.book-section {
-    /* margin: 20px 0; */
+#contents table tr.book-section td {
+    padding: 10px 0;
 }
 
 #contents table td.book-section {
@@ -122,5 +162,5 @@ section p {
     vertical-align: middle;
     font-size: 16pt;
     color: #fff;
-    background-color: var(--theme-color-4);
+    background-color: #0c707a33;
 }

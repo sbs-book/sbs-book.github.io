@@ -111,7 +111,7 @@ ul {
     list-style: none;
 }
 
-p strong {
+section strong {
     font-weight: 500;
 }
 
@@ -761,7 +761,8 @@ section h2 {
 
 #authors ul li .discipline {
     font-size: .9em;
-    color: var(--theme-color-3);
+    color: var(--theme-color-4);
+    opacity: 60%;
 }
 
 #authors i.country-au {
