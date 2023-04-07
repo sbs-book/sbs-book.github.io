@@ -74,19 +74,19 @@ section ul li::before,
 section ul li::after {
     content: "";
     position: absolute;
-    top: 3px;
+    top: 4px;
     border-style: solid;
     border-color: transparent;
 }
 
 section ul li::before {
-    left: -17px;
+    left: -7px;
     border-width: 7px;
     border-left-color: var(--theme-color-1);
 }
 
 section ul li::after {
-    left: -18px;
+    left: -8px;
     border-width: 8px;
     border-left-color: var(--theme-color-1);
 }
