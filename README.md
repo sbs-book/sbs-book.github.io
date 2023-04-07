@@ -9,9 +9,21 @@ The first collaborative, multidisciplinary **academic textbook** to tackle the s
 * Publisher: [Cambridge University Press](https://www.cambridge.org/core/books/shaken-baby-syndrome/67016F1A1F6ED92141A179E9A5D145FB)
 * Publication date: April 2023
 * Online ISBN: 9781009177894
-* [Get the book on **Cambridge University Press**](https://www.cambridge.org/core/books/shaken-baby-syndrome/67016F1A1F6ED92141A179E9A5D145FB) (available in April 2023)
-* [Get the book on **Amazon UK**](https://www.amazon.co.uk/Shaken-Baby-Syndrome-Investigating-Controversy/dp/1009177885/) (available in April 2023)
-* [Get the book on **Amazon US**](https://www.amazon.com/Shaken-Baby-Syndrome-Investigating-Controversy/dp/1009384767) (available in April 2023)
+
+### Preorder
+
+Hardcover copies will be available in UK stores in May 2023, and in US stores in July 2023.
+
+Preorder now on:
+
+* [**Cambridge University Press**](https://www.cambridge.org/core/books/shaken-baby-syndrome/67016F1A1F6ED92141A179E9A5D145FB) (available in April 2023)
+* [**Waterstones**](https://www.waterstones.com/book/shaken-baby-syndrome/keith-a-findley/cyrille-rossant/9781009384766)
+* [**Blackwell's**](https://blackwells.co.uk/bookshop/product/Shaken-Baby-Syndrome-by-Keith-Findley-editor/9781009384766)
+* [**WHSmith**](https://www.whsmith.co.uk/products/shaken-baby-syndrome-investigating-the-abusive-head-trauma-controversy/keith-a-findley/cyrille-rossant/hardback/9781009384766.html)
+* [**Barnes & Noble**](https://www.barnesandnoble.com/w/shaken-baby-syndrome-keith-a-findley/1143053792)
+* [**Bookshop**](https://bookshop.org/p/books/shaken-baby-syndrome-investigating-the-abusive-head-trauma-controversy-leila-schneps/19790464?ean=9781009384766)
+* [**Amazon UK**](https://www.amazon.co.uk/Shaken-Baby-Syndrome-Investigating-Controversy/dp/1009177885/) (available in April 2023)
+* [**Amazon US**](https://www.amazon.com/Shaken-Baby-Syndrome-Investigating-Controversy/dp/1009384767) (available in April 2023)
 
 ## News
 
