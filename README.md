@@ -130,11 +130,11 @@ The book contains hundreds of references. You'll find a small selection of refer
 
 * [**TEDxWandsworth, Waney Squier, 2016.** I believed in Shaken Baby Syndrome until science showed I was wrong](https://www.ted.com/talks/waney_squier_i_believed_in_shaken_baby_syndrome_until_science_showed_i_was_wrong)
 
-* [**TEDxButler, Jessica Henry, 2021** No-Crime Wrongful Convictions](https://www.youtube.com/watch?v=f42eXvvxK9g)
+* [**TEDxButler, Jessica Henry, 2021.** No-Crime Wrongful Convictions](https://www.youtube.com/watch?v=f42eXvvxK9g)
 
 * [**Retro report, 2015.** The Nanny Murder Case: Shaken Baby Syndrome on Trial](https://www.retroreport.org/video/a-syndrome-on-trial/)
 
-* [**Interview with Norman Guthkelch, 2015**](https://www.retroreport.org/video/mini-doc/the-doctor/)
+* [**Interview with Norman Guthkelch, 2015.**](https://www.retroreport.org/video/mini-doc/the-doctor/)
 
 * [and more...](https://cyrille.rossant.net/introduction-shaken-baby-syndrome-controversy/#sec-films)
 
