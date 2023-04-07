@@ -22,14 +22,16 @@ window.onload = (ev) => {
     }
 
     // Number animations.
-    let animated = false;
-    var observer = new IntersectionObserver(function (entries) {
-        if (entries[0].isIntersecting === true && !animated) {
-            animateValue(document.querySelector("#numbers .col1 .number"), 0, 32, 1500);
-            animateValue(document.querySelector("#numbers .col2 .number"), 0, 8, 500);
-            animateValue(document.querySelector("#numbers .col3 .number"), 0, 16, 1000);
-            animated = true;
-        }
-    }, { threshold: [0] });
-    observer.observe(document.querySelector("#numbers"));
+    if (document.querySelector("#numbers")) {
+        let animated = false;
+        var observer = new IntersectionObserver(function (entries) {
+            if (entries[0].isIntersecting === true && !animated) {
+                animateValue(document.querySelector("#numbers .col1 .number"), 0, 32, 1500);
+                animateValue(document.querySelector("#numbers .col2 .number"), 0, 8, 500);
+                animateValue(document.querySelector("#numbers .col3 .number"), 0, 16, 1000);
+                animated = true;
+            }
+        }, { threshold: [0] });
+        observer.observe(document.querySelector("#numbers"));
+    }
 };

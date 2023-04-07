@@ -126,7 +126,7 @@ The book contains hundreds of references. You'll find a small selection of refer
 * [and more...](https://cyrille.rossant.net/introduction-shaken-baby-syndrome-controversy/#sec-books)
 
 
-### Video
+### Videos
 
 * [**TEDxWandsworth, Waney Squier, 2016.** I believed in Shaken Baby Syndrome until science showed I was wrong](https://www.ted.com/talks/waney_squier_i_believed_in_shaken_baby_syndrome_until_science_showed_i_was_wrong)
 
@@ -161,8 +161,6 @@ The book contains hundreds of references. You'll find a small selection of refer
 * [**Rossant, 2022.** An Introduction to the Scientific Controversy over Shaken Baby Syndrome](https://cyrille.rossant.net/introduction-shaken-baby-syndrome-controversy/)
 
 
+### Errata
 
-
-## Errata
-
-N/A
+* [None yet.](#errata)
