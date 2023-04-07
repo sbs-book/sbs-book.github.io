@@ -59,8 +59,6 @@ section p {
 
 
 
-
-
 #books,
 #press-investigations {
     background-color: var(--theme-color-3);
@@ -86,4 +84,43 @@ section p {
 
 #errata a {
     color: var(--theme-color-3);
+}
+
+
+
+#contents table thead {
+    display: none;
+}
+
+#contents table tr {
+    height: 45px;
+}
+
+#contents table td {
+    color: var(--theme-color-4);
+    vertical-align: top;
+    text-align: left;
+}
+
+#contents table td:first-of-type {
+    color: var(--theme-color-3);
+    width: 30px;
+}
+
+#contents table td:nth-of-type(2) {
+    color: var(--theme-color-4);
+    font-weight: 500;
+}
+
+#contents table tr.book-section {
+    /* margin: 20px 0; */
+}
+
+#contents table td.book-section {
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 16pt;
+    color: #fff;
+    background-color: var(--theme-color-4);
 }
