@@ -19,7 +19,7 @@ section {
 
 section a {
     color: var(--theme-color-2);
-    font-size: 1.1rem;
+    font-size: 13pt;
 }
 
 section a:hover {
@@ -141,6 +141,7 @@ section ul li::after {
     color: var(--theme-color-4);
     vertical-align: top;
     text-align: left;
+    font-size: 13pt;
 }
 
 #contents table td:first-of-type {
