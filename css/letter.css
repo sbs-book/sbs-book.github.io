@@ -150,7 +150,7 @@ header.letter {
     font-style: italic;
     border-left: 12px solid var(--theme-color-1);
     padding-left: 16px;
-    margin: 24px 12px;
+    margin: 24px 12px 24px 0;
 }
 
 
