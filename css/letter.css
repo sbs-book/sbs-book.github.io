@@ -74,6 +74,32 @@
     color: var(--theme-color-5);
 }
 
+@media screen and (max-width: 560px) {
+    #contents .letter table tr {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        padding: 10px 0;
+        height: auto;
+    }
+
+    #contents .letter table td {
+        display: block;
+        width: 100% !important;
+        padding: 4px 0;
+    }
+
+    #contents .letter table td:nth-of-type(1) {
+        order: 1;
+    }
+
+    #contents .letter table td:nth-of-type(2) {
+        order: 2;
+        color: var(--theme-color-5);
+    }
+}
+
 #contents .letter table * {
     /* color: var(--theme-color-4) !important; */
 }
@@ -110,6 +136,7 @@
     font-style: italic;
     border-left: 8px solid var(--theme-color-1);
     padding-left: 16px;
+    margin: 24px 12px;
 }
 
 
