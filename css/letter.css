@@ -113,6 +113,15 @@
 }
 
 
+section#articles.letter .wrapper {
+    max-width: 920px;
+}
+
+section#articles.letter .wrapper>div {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 footer .signatories {
     font-style: italic;
 }
