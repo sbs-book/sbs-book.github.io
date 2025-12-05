@@ -773,6 +773,10 @@ i.country-ca {
     background-image: url("../img/SBS_Authors_Country-CA.png");
 }
 
+i.country-fi {
+    background-image: url("../img/SBS_Authors_Country-FI.png");
+}
+
 i.country-fr {
     background-image: url("../img/SBS_Authors_Country-FR.png");
 }
@@ -785,12 +789,20 @@ i.country-jp {
     background-image: url("../img/SBS_Authors_Country-JP.png");
 }
 
+i.country-nl {
+    background-image: url("../img/SBS_Authors_Country-NL.png");
+}
+
 i.country-nw {
     background-image: url("../img/SBS_Authors_Country-NW.png");
 }
 
 i.country-nz {
     background-image: url("../img/SBS_Authors_Country-NZ.png");
+}
+
+i.country-pl {
+    background-image: url("../img/SBS_Authors_Country-PL.png");
 }
 
 i.country-sw {

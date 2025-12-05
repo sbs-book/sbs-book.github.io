@@ -2,6 +2,12 @@
 /* LETTER PAGE */
 /*************************************************************************************************/
 
+#contents.letter .wrapper {
+    padding: 40px 0;
+    max-width: 920px;
+}
+
+
 #contents.letter .wrapper .title h2 {
     padding: 0 20px;
 }
@@ -50,7 +56,7 @@
 }
 
 #contents .letter table tr {
-    height: 36px;
+    height: 38px;
 }
 
 #contents .letter table td {
@@ -60,6 +66,7 @@
 #contents .letter table td:nth-of-type(1) {
     font-weight: 500;
     color: var(--theme-color-4);
+    width: 45%;
 }
 
 #contents .letter table td:nth-of-type(2) {
