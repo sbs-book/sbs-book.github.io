@@ -105,6 +105,14 @@
     text-align: center;
 }
 
+#articles.letter blockquote {
+    color: var(--theme-color-2);
+    font-style: italic;
+    border-left: 8px solid var(--theme-color-1);
+    padding-left: 16px;
+}
+
+
 footer .signatories {
     font-style: italic;
 }
