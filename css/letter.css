@@ -2,6 +2,14 @@
 /* LETTER PAGE */
 /*************************************************************************************************/
 
+header.letter {
+    position: inherit;
+}
+
+#contents.letter {
+    padding-top: 0;
+}
+
 #contents.letter .wrapper {
     padding: 40px 0;
     max-width: 920px;
@@ -97,6 +105,11 @@
     #contents .letter table td:nth-of-type(2) {
         order: 2;
         color: var(--theme-color-5);
+    }
+
+    #contents .letter table i {
+        top: 0 !important;
+        left: 0 !important;
     }
 }
 
