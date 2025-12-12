@@ -155,6 +155,73 @@ header.letter {
 }
 
 
+
+.books {
+    /* display: flex; */
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.books .book-illustration {
+    flex: 0 0 240px;
+    margin: 0;
+}
+
+.books .book-list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.books article h3 {
+    margin: 0;
+    font-size: 18pt;
+}
+
+.books article p {
+    margin: 4px 0;
+}
+
+.books p {
+    color: var(--theme-color-5);
+}
+
+.books .book-illustration img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#about-books {
+    background-color: var(--theme-color-2);
+    padding: 40px 0;
+}
+
+#about-books .wrapper {
+    color: var(--theme-color-5);
+    max-width: 920px;
+}
+
+#about-books img {
+    max-width: 100%;
+}
+
+#about-books h2,
+#about-books h3,
+#about-books a {
+    color: var(--theme-color-4);
+    text-align: left;
+    font-weight: 500;
+}
+
+#about-books .book-list {
+    color: var(--theme-color-5);
+}
+
 section#articles.letter .wrapper {
     max-width: 920px;
 }
