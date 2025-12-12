@@ -18,6 +18,7 @@ header.letter {
 
 #contents.letter .wrapper .title h2 {
     padding: 0 20px;
+    text-transform: none;
 }
 
 #contents .letter {
