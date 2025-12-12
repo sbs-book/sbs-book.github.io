@@ -220,6 +220,15 @@ header.letter {
 
 #about-books .book-list {
     color: var(--theme-color-5);
+
+    & p {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    & li {
+        margin-bottom: 20px;
+    }
 }
 
 section#articles.letter .wrapper {
